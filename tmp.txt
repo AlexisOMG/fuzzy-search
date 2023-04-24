@@ -1,0 +1,35 @@
+Input : records: a set of records
+key: a sorting key for the records
+w: initial window size
+φ: threshold for the window increase
+Output: A set of record pairs that shall be classified as duplicate or non-duplicate.
+
+sort records by key
+populate window win with first w records of records
+skipRecords ← null /* Records to be skipped */
+for j = 1 to records.length − 1 do /* Iterate over all records */
+  if win[1] NOT IN skipRecords then
+    numDuplicates ← 0 /* Number of detected duplicates */
+    numComparisons ← 0 /* Number of comparisons */
+    k ← 2
+    while k ≤ win.length do /* Iterate over win to find dup. of rec. win[1] */
+      if isDuplicate(win[1], win[k]) then /* Check if rec.pair is duplicate */
+        emit duplicate pair (win[1], win[k])
+        skipRecords.add(win[k])
+        numDuplicates ← numDuplicates + 1
+        /* Increase window size from k by w-1 records */
+        while win.length < k +w −1 and j +win.length < records.length do
+          win.add(records[j + win.length + 1])
+      numComparisons ← numComparisons + 1
+      /* Potentially increase window size by 1 */
+      if k = win.length and j + k < records.length and (numDuplicates/numComparisons) ≥ φ then
+        win.add(records[j + k + 1])
+      k ← k + 1
+  win.remove(1) /* Slide window */
+  if win.length < w and j + k < records.length then
+    win.add(records[j + k + 1])
+  else /* Trim window to size w */
+    while win.length > w do
+      win.remove(win.length) /* Remove last record from win */
+  j ← j + 1
+calculate transitive closure of all emitted duplicate pairs
