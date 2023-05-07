@@ -1,0 +1,601 @@
+rec_id,given_name,surname,street_number,address_1,address_2,suburb,state,date_of_birth,phone_number
+rec-114-dup-2,quinn,hnafakis,38,ratcliffe cfescent,,eaton,tas,,08 52778998
+rec-128-dup-0,amber,berry,1,cooloola street,,cronulla,qld,19701124,04 62546648
+rec-182-dup-1,jasmyn,findlay,7,barrington crescent,,bickly,nsw,19581031,08 65258867
+rec-74-dup-2,thomas,boybe,15,pandanus street,tesbury,moss vale,vic,,03 51416192
+rec-4-dup-3,alana,leane,94,mcbryde crescent,,crystal dbrook,sa,19741113,07 22393287
+rec-23-dup-3,samuel,mccarthy,46,glossop crescent,uc-dai-loi,pearcedale,,19880705,04 56505702
+rec-140-org,emiily,matthews,231,coolibah crescent,,corlette,vic,19660904,02 01497840
+rec-199-dup-3,berry,emiily,56,clisby close,gleneriffe,coolamon,,19691203,04 00352853
+rec-167-dup-0,chloe,beattie,10,may maxwell crescent,,mill park,vo,19580811,02 41325455
+rec-131-org,noah,campbell,12,kintore crescent,killara lodge,narellan vale,act,19410222,04 19077258
+rec-44-org,luke,grainger,105,shackleton circuit,,wallsend,tas,19750106,03 39909833
+rec-118-dup-0,noab,jiang,,la perouse street,kinross,harbord,,19000106,04 84504204
+rec-186-dup-0,hudson,dent,443,martens crescent,,heywglod,nsw,19970207,02 67219086
+rec-112-dup-1,abbey,dittmayer,10,busby street,,cleveland,wa,19650419,02 77454695
+rec-171-dup-1,andie,colegate,36,kinnimo place,,kelmscott,sa,19601006,03 56432060
+rec-70-dup-0,connor,gibvb,4,kambaldac rescent,,modbury,sa,19280415,08 56026449
+rec-198-dup-0,laurm,wiseman,4,denovan circuit,,dandenong north,vic,19471223,08 13528898
+rec-167-org,chloe,beattie,10,may maxwell crescent,,mill park,vic,19580811,02 41325455
+rec-5-dup-2,emiila,tapper,4,badimara street,,greenacre,,19930414,04 31646602
+rec-14-dup-1,thoias,meadows,2,rankenplace,,pimlico,tas,19490807,08 46290889
+rec-74-dup-0,thoas,boyle,15,pandanus lstreet,tesbury,moss vale,vic,,03 51416192
+rec-136-org,prudence,ryan,43,cruikshank street,,rosetta,nsw,19890124,08 00911048
+rec-193-org,indiana,schuster,9,bailey place,roseleigh farms,rothwell,,19260814,03 28924909
+rec-121-dup-3,bullock,anneliese,6,kingsford smith drive,balmoral garden,cable beach,nsw,19271203,02 03728292
+rec-100-dup-0,isabella,badowicz,4,charterisville avenue,,nunawding,nsw,19890217,07 27362905
+rec-144-dup-3,campbdll,benjamin,58,brier place,,keilor east,,19551024,08 67663904
+rec-188-dup-1,bruhn,lara,94,weetman place,,denmark,nsw,19631118,03 02655327
+rec-92-org,,reid,258,bunton place,,cunninyeuk,vic,19700731,02 03080405
+rec-84-org,isabelle,felstead,132,bimberi crescent,highfield (cnr east tamar h highway,mirrabooka,,19710609,08 26987252
+rec-23-dup-2,sanuel,mccarthy,14,glossop crescent,,pearcedale,,19880705,04 56505702
+rec-171-dup-0,andie,colegate,353,kinnimo place,,kelmscott,sa,19601006,03 56523060
+rec-17-org,imogen,schuster,24,shasta place,,sunnybank,wa,19610105,03 18794743
+rec-166-dup-2,alexandra,mckone,23,rivers syreet,,sherwood,vic,19670829,08 39623989
+rec-113-dup-2,burford,jack,27,paul coe crescent,roblinvale,sale,vic,19261021,08 87285022
+rec-43-org,cambell,shorrock,13,nymagee place,,orange,,19101128,08 60730552
+rec-121-dup-2,anneliese,bullock,6,kingsford smxth drive,balmoral garden,cable ebach,nsw,19271203,02 03728292
+rec-178-dup-1,jasimne,butter,74,narryer chlose,,bowen hills,,19960611,07 13978825
+rec-100-dup-1,isabella,badowixz,4,charterisvigle avenue,medical centre,nunawading,nsw,19890217,07 27362905
+rec-102-dup-1,chloe,madilan,168,,lynalan,naremburn,nsw,19720209,02 45209068
+rec-153-dup-1,keajly,rundle,13,badimara street,,narembeen east,qld,19261224,03 05450786
+rec-176-org,kelsy,noble,4,julius street,upson & downs,ballina,vic,19450807,07 98216266
+rec-113-dup-1,jack,burord,2,paul coe crescent,roblinvale,sale,vic,19261021,08 87285022
+rec-104-org,aimee,campbell,35,fullagar crescent,,blackbutt,,,07 56088028
+rec-93-dup-0,shakira,biwhop,151,oakwood place,,mount eliza,,19620409,
+rec-40-org,isabelle,webb,122,harrison street,,beverley park,nsw,,03 62868585
+rec-194-org,portia,whinfield,4,maclachlan street,,waterloo,wa,19620914,08 19178739
+rec-78-dup-2,aifen,yost,23,armstrong cescent,fairburn park,glenmore park,vic,19890831,07 18636706
+rec-3-org,gabrielle,campbell,6,nambir court,sherwood,ringwood,nsw,19991016,03 82205941
+rec-3-dup-0,gabrielle,campbell,6,nambir court,sherwood,ringwood,ns,19991016,03 82205941
+rec-139-dup-0,cooper,megovimovic,8,onians place,,swanpool,,19910609,07 74512144
+rec-37-org,charlotte,trimmer,100,currong street,,greenacre,vic,,03 46055565
+rec-172-org,ewan,lena,6,fitzmaurice street,,avondale heights,nsw,19960913,02 27613135
+rec-26-org,seanna,ngai,41,,,belmont,vic,19111231,07 67170713
+rec-166-dup-3,alessandra,mckone,22,rivers street,,sherwood,vic,19670839,08 39623989
+rec-14-org,thomas,meadows,2,ranken place,,pimlico,tas,19490807,08 46290889
+rec-32-org,aimee,donkin,25,mcvilly close,yonda pines,st andrews,nsw,19520127,03 43826377
+rec-121-dup-1,annelese,bullock,6,kingsford smith drive,balmoral garden,cable beach,naw,19271203,02 03728292
+rec-97-dup-2,logan,tsang,118,adinda street,,mosmax,,19960119,08 85788340
+rec-102-dup-2,chloe,madigan,10,mcmaster street,lynalan,naremburn,nsw,19720209,02 45209068
+rec-69-org,ella,mccarthy,100,greeves street,,mittagong,,19980909,04 20318692
+rec-71-dup-0,mitchell,shepherd,32,dodgahuncourt,,clifton springs,vic,,08 11189816
+rec-187-dup-3,isabella,russin,100,conifer avenue,,belgrave,act,19980610,02 27539241
+rec-189-dup-1,zachary,,5,bungonia sdtreet,riverside park,colonel light gardens,vic,19500910,02 02568175
+rec-189-dup-2,zachariah,,5,bungoniapstreet,riverside park,colonel light gardens,vic,19500910,02 02568175
+rec-187-org,isabella,russin,100,conifer avenue,,belgrave,act,19980610,02 27358241
+rec-88-org,teegan,billman,6,springvale drive,,rouse hill,nsw,19650228,04 31710220
+rec-20-dup-2,reganne,campbell,1580,goyder sbteet,,tarragindi,wa,19830224,04 83564509
+rec-159-org,sebastian,hope,84,city walk,murray eden,noosa parklands,tas,19240515,02 64232736
+rec-157-dup-0,kayla,jesser,10,tuck place,lake kiwarry,mosman,nsw,19380420,08 91719827
+rec-134-org,william,van dereerden,35,petterd street,bogong apartments,niagara park,nsw,19750510,08 02974883
+rec-165-dup-1,max,petersen,10,fraenkelzstreet,,taringa,nsw,,03 14701814
+rec-23-org,samuel,mccarthy,14,glossop crescent,uc-dai-loi,pearcedale,,19880705,04 56505702
+rec-185-org,hollie,fornarino,6,clive steele avenue,,hamilton,vic,19951019,07 05158222
+rec-172-dup-0,ewan,lenr,6,fitzmaurice street,,avondale heights,nsw,19960913,08 31516448
+rec-25-org,madison,blunden,15,birdwood street,,riverwood,qld,,02 75147408
+rec-52-dup-0,sisn,michail,38,cannan crescent,,westp erth,wa,19010403,07 27573090
+rec-8-org,caleb,dallemolle,8,mackey place,evenstar,hawthorn,nsw,19250225,04 25028178
+rec-161-org,sophie,green,84,toohey place,,burleigh heads,nsw,19141212,07 41418312
+rec-16-org,olivia,mcneill,9,james smith circuit,crestwood,huonville,sa,19940621,02 53303772
+rec-183-dup-1,tanaru,campbell,7,currong street,,ascot vale,wa,19410844,08 31194399
+rec-47-dup-2,ethan,giord ano,14,springvale drive,,parmelia,qld,19080107,07 95114905
+rec-109-org,corey,,20,nulsen circuit,halfway hill,kellyville,,19920624,07 91444562
+rec-187-dup-2,isabella,russin,100,conifer wvenue,,belgrave,act,19980610,02 27358241
+rec-134-dup-0,willivam,van dereerden,35,petterd syreet,bogong apartments,niagara park,nsw,19750510,08 02974883
+rec-74-org,thomas,boyle,15,pandanus street,tesbury,moss vale,vic,,03 51416192
+rec-56-org,tiarna,weiller,66,jindabyne street,,altona meadows,vic,,03 79740733
+rec-72-org,mitchell,hinchey,173,bunny street,,leichhardt,nsw,19480303,07 02263928
+rec-4-org,alana,leane,94,mcbryde crescent,st francis vlge,crystal brook,sa,19741113,07 22393287
+rec-31-dup-1,elijah,cowell,21,moorhouse jstreet,,kyaram,nsw,19290411,07 81959107
+rec-76-dup-0,mw,gold,106,carnegie crescent,narraburra lodge,campsie,,19910226,08 25930979
+rec-153-dup-2,keahely,rundle,13,badimara street,,narembeen east,qod,19261224,03 05450786
+rec-93-org,shakira,bishop,151,oakwood place,ballawinna stud,mount eliza,,19620409,
+rec-11-org,teegan,fenwick,13,ryrie street,,st lucia,nsw,19801220,03 27254162
+rec-43-dup-2,cambell,shorrock,13,nymage eplace,west bank,orange,,19101128,08 60730552
+rec-55-org,sophie,,41,fullerton crescent,,greenacres,qld,19240515,08 12254472
+rec-0-dup-1,wilk,wepb,135,aspinall street,,albion park,vic,,02 80006990
+rec-165-org,max,petersen,10,fraenkel street,,taringa,nsw,,
+rec-74-dup-3,thomas,boyle,15,pandanus street,,,vic,,03 51416192
+rec-181-dup-1,hamish,mccarthy,18,curronj s treet,,port macquarie,nsw,,07 54485614
+rec-25-dup-0,,blunden,15,birdwoodwstreet,,riverwood,qld,,02 75147408
+rec-114-org,quinn,hnarakis,38,ratcliffe crescent,,eaton,tas,,08 52778998
+rec-31-dup-2,elijah,cowell,21,moorhouss zstreet,,kyabram,nsw,19290411,07 81959107
+rec-4-dup-0,allana,leane,94,mcbryde crescent,,crystal brook,sa,19741113,07 22393287
+rec-49-dup-0,aiden,mainero,58,scarletg street,,nudge,qld,,
+rec-199-dup-2,emiily,berry,56,clisbyfcclose,gleneriffe,coolamon,,19691203,04 00352853
+rec-41-dup-3,jee,jessup,132,glasgow sfreet,,st peters,wa,19140225,04 07514663
+rec-41-dup-1,jos,jessup,132,glasgow street,,st peters,wa,19140225,04 07514663
+rec-160-dup-1,clodagh,saul,112,beedham place,mylanfra,canary island,wa,19761013,08 67122191
+rec-128-dup-1,amber,bery,13,street cooloola,,cronulla,qld,19701124,04 62564648
+rec-129-dup-0,samanhta,scougall,6,abercrombie circuit,,alice springs,nsw,19850526,07 48666081
+rec-125-dup-2,hannah,gromball,18,dalyell street,,clayfield,vic,19700206,02 63861572
+rec-45-org,ashlie,ryan,35,sturdee crescent,,yarrawonga,vic,19920321,08 04484976
+rec-156-org,lachlan,white,16,ambalindum street,mt pleasant,maclean,nsw,19001003,08 87870951
+rec-24-dup-2,angelica,white,45,jane pricelcrescent,,castlemaine,wa,,07 82731703
+rec-43-dup-0,cambell,shorrock,11,nymagee olace,,orange,,19101128,08 60730552
+rec-89-dup-1,sam,paine,102,knoke avenue,roskhill,oakhurst,qldk,19451202,07 25079857
+rec-81-dup-1,hannha,egan,566,myall street,,keilor east,vic,19161218,03 22227954
+rec-40-dup-3,isabelle,webb,124,harrison treet,,beverley park,nsw,,03 62868585
+rec-31-org,elijah,cowell,21,moorhouse street,,kyabram,nsw,19290411,07 81959107
+rec-168-org,sophie,bartel,13,forbes street,,rye,qld,19110122,04 81441001
+rec-127-org,alyssa,mcfadden,68,merrett garden,,birralee,nsw,19570929,04 33718183
+rec-40-dup-2,isabelle,webm,122,harrison sreet,,beverley park,nsw,,03 62868585
+rec-70-org,connor,gibb,4,kambalda crescent,,modbury,sa,19280415,08 56026449
+rec-47-org,ethan,giordano,13,springvale drive,,parmelia,qld,19080107,07 95114905
+rec-177-dup-1,jaggah,fitzparrick,43,kirwan circuit,,chinchlla,,,07 04402800
+rec-14-dup-0,thomas,meadows,2,rankenplace,,pimlico,tqs,19490807,08 46290889
+rec-136-dup-2,prudence,ryan,43,cruikshank street,,roseta,nsw,19890124,
+rec-79-dup-0,joshua,kopecki,40,amaroot street,,hawthorne,vic,19110118,03 52679265
+rec-83-org,blayke,balasubramaniam,124,anembo street,the tops,carlingford,nsw,19780203,04 13569559
+rec-29-dup-2,deakin,reid,179,milehampstreet,villa 3,beecroft,qld,19131115,08 93479341
+rec-142-dup-0,alexadneria,white,9,nathan street,aintree,dalby,nsw,19620326,08 13220493
+rec-83-dup-0,blayke,balasubramaniam,12,anembo street,the tops,carlingbford,nsw,19780203,04 13569559
+rec-129-dup-1,samantha,scousall,5,abercrombie circuit,,alice springs,nsw,19850526,03 84974796
+rec-136-dup-0,prudence,ryan,42,cruikshank street,,rosetta,nsq,19890124,08 00911048
+rec-40-dup-1,isabelle,webbu,122,harrison street,,beverley park,nws,,03 62868585
+rec-85-dup-0,karlee,norgate,26,macquaric dtreet,valbella,seven hills,wa,19631031,04 83773399
+rec-114-dup-0,quinn,hnarakus,38,ratcliffe crescent,balmoral garden,eaton,tas,,08 52778998
+rec-177-dup-0,jagtah,fitzpatrick,41,kirwan circuit,,chinchilla,,,07 04402800
+rec-179-dup-0,domenique,tootelal,28,hawkesbury crescent,,campsie,vix,19630116,04 25467054
+rec-37-dup-3,charlotte,trimmer,100,currong street,,greenacre,viyv,,03 46055565
+rec-95-org,aimee,lomman,322,belconnen way,,albury,wa,19580420,04 15190366
+rec-51-dup-3,staggard,joel,8,costello circuit,glenbrook orchard,crows nest,vic,19010731,03 07156886
+rec-93-dup-1,shakirah,bisho,151,oakwood place,ballawinna stud,mount eliza,,19620409,
+rec-76-org,max,gold,106,carnegie crescent,narraburra lodge,campsie,,19910226,08 25930979
+rec-29-org,deakin,reid,179,mileham street,villa 3,beecroft,qld,19131115,08 93479341
+rec-60-dup-2,lauren,matthews,497,mina wylib crescent,,surrey ills,qld,19090924,03 23679570
+rec-125-dup-3,hannag,gromball,18,dalyell atreet,,clayfield,vic,19700226,02 63861572
+rec-66-dup-0,clarke,jasmyn,4,carnegie crescent,,hermit park,qld,19781128,03 71815681
+rec-120-org,jack,egan,38,yambina crescent,,auburn,,,04 04371034
+rec-193-dup-0,,schuster,,bailey place,roseleigh farms,rothwell,,19260814,03 28924909
+rec-158-dup-1,hannah,morcom,1,street biffin,,paringa,nsw,19570104,04 16106778
+rec-144-dup-1,cambell,benjamin,58,brier palce,,keilor east,,19551024,08 67653904
+rec-75-org,ebony,green,86,longmore crescent,,coonamble,vic,19891227,03 52405346
+rec-110-org,tahlia,nguyen,25,leahy close,buderim meadows convenience centre,charlestown,qld,19560303,
+rec-115-dup-0,lacey,lowe,14,napthalij close,,lakmeba,wa,19290711,08 37742393
+rec-102-dup-0,chloe,madigan,168,majura avenue,lynalan,naremburn,nsw,19720209,02 45209068
+rec-94-org,cameron,roles,4,slight place,,mount marshall,vic,19660726,08 04845336
+rec-58-org,michael,arland,4,meiklejohn place,rocklea,yeronga,vic,19900714,08 01263722
+rec-89-dup-3,sam,paive,12,knoke avenue,roskhill,oakhurst,qld,19451202,07 25709857
+rec-167-dup-2,chloe,beattie,701,may maxwell crescent,,mill park,vic,19580811,02 41325455
+rec-13-org,imogen,collinson,6,lightfoot crescent,,boronia heights,,19540220,07 04806370
+rec-179-org,domenique,tootell,28,hawkesbury crescent,,campsie,vic,19630116,04 25467054
+rec-185-dup-2,hollie,fornarifno,5,clive steele avenue,,hamilton,vic,19951019,07 05158222
+rec-145-dup-0,sophie,,22,barclay street,merricroft,islington,,19870325,03 59953837
+rec-4-dup-1,alana,leane,94,mcbryde xrwscent,st francis vlge,crystal brook,sa,19741113,07 22393287
+rec-89-dup-0,sam,paine,102,knoke qcenue,roskhill,oakhurst,qld,19451202,07 25709857
+rec-196-org,jacob,coleman,4,murphy street,,marks point,nsw,19660804,04 11118332
+rec-113-dup-0,jack,,27,paul coe crescent,roblinvale,sale,vic,19261021,08 87285022
+rec-130-dup-0,bailley,grewe,1197,,kepnock grove,narre warren north,vic,19801015,03 78047899
+rec-112-dup-0,dittmayer,abbey,10,busby street,rowethorpe,cleveland,wa,19650419,02 77455695
+rec-39-org,carly,friswell,12,moir place,,marsden,vic,19951104,04 21025492
+rec-0-org,will,webb,135,aspinall street,,albion park,vic,,02 80006990
+rec-92-dup-0,,reid,258,bunton place,downs suffolk,cunninyeuk,vic,19700731,02 03080405
+rec-170-dup-0,ebony,noble,33,weston sreet,aintree,surry hills,vic,19781222,03 04570686
+rec-42-dup-0,ronan,statton,27,mellor circuit,rheo bland,stanmore,,19560623,07 55313810
+rec-49-org,aiden,mainero,58,scarlett street,,nudgee,qld,,
+rec-111-dup-1,kayla,chee,307,,,noble park,vic,19200315,03 61465623
+rec-71-dup-2,mitcuell,shepherd,32,dodgshun court,,clifton springs,vic,,08 11189816
+rec-151-dup-1,michael,,16,hurwoodwplace,,naremburn,qld,19020922,02 02053809
+rec-60-dup-0,laurn,matthews,497,mina wylie crescent,,surrey hills,qld,19090924,07 01459434
+rec-151-dup-3,michael,,16,hurwoof lace,,naremburn,qld,19020922,02 02053809
+rec-115-dup-2,lacey,loswe,14,napthaliclose,,lakemba,wa,19290711,08 37742393
+rec-89-org,sam,paine,102,knoke avenue,roskhill,oakhurst,qld,19451202,07 25709857
+rec-120-dup-1,jack,egln,36,yambina crescent,,auburn,,,04 04371034
+rec-45-dup-3,ashlie,ryan,35,denny street,,yarrawonga,vic,19920321,08 04484976
+rec-119-org,nemesia,colquhoun,14,,nareen gardens hostel,robina,nsw,,07 82624295
+rec-88-dup-0,teegam,billmaxn,6,springvale drive,,rouse hill,nsw,19650228,04 31710220
+rec-118-org,noah,jiang,,la perouse street,kinross,harbord,,19000106,04 84404204
+rec-153-dup-3,keahley,rundle,13,badimara street,,narembeen east,qld,19261224,08 70501640
+rec-158-org,hannah,morcom,1,biffin street,,paringa,nsw,19570104,04 14106778
+rec-72-dup-0,mitchdll,hinchey,173,bunny street,,leichardt,nsw,19480303,07 02263928
+rec-111-org,kayla,chee,307,jansz crescent,,noble park,vic,19200315,03 61465623
+rec-151-org,michael,,16,hurwood place,,naremburn,qld,19020922,02 02053809
+rec-111-dup-0,kayh,chee,307,jansz crescent,,noble park,vic,19200315,03 61465623
+rec-92-dup-2,,reid,258,bunton olace,,cunninyeuk,vic,19700731,02 03070405
+rec-145-dup-1,sophie,mikajeski,21,barclay street,merricroft,islingtown,,19870325,03 59953837
+rec-174-dup-2,joshua,wyllie,33,oxley dtreet,,berwick,,19281001,
+rec-121-org,anneliese,bullock,6,kingsford smith drive,balmoral garden,cable beach,nsw,19271203,02 03728292
+rec-191-org,casey,clarke,8,florentine circuit,rosetta village,caves beach,wa,19880210,04 87614422
+rec-67-dup-0,troy,dent,24,rohan rivett crescent,,seelands,qld,19090708,04 41032059
+rec-23-dup-0,samuel,mccarthy,14,glossop vrescent,uc-dai-loi,pearcedale,vic,19880705,04 56505702
+rec-183-dup-0,tanar,campbwll,7,currong street,,ascot vale,wa,19418014,08 31194399
+rec-61-org,trevor,quinton,262,jabanungga avenue,,murgon,vic,19620510,08 02944328
+rec-155-org,benjamin,clarke,94,berry street,,scarness,qld,19320602,07 63877143
+rec-139-org,cooper,megovimovic,8,onians place,unt 2,swanpool,,19910608,07 74512144
+rec-151-dup-0,miwah,,16,hurwood place,,naremburn,qld,19020922,02 02053809
+rec-175-dup-1,caitlin,,124,broadsmithhstreet,the mews royal hotel bldg,terrigal,nsw,19260218,04 14265635
+rec-188-dup-0,lara,bruhi,94,weetman place,,denmrk,nsw,19631118,03 02655327
+rec-113-dup-3,jack,burford,27,paul coe crescent,roblinvale,saoe,vic,19261021,08 87285922
+rec-52-org,sian,michail,38,cannan crescent,,west perth,wa,19010403,07 27573090
+rec-86-org,jake,goode,6,endeavour street,,irymple,vic,19450914,08 51678982
+rec-163-org,ajay,hoffman,44,cossington smith crescent,,paddington,vic,19530716,03 79842090
+rec-4-dup-2,alana,maier,94,mcbryde crescent,st francis vlge,crystal brook,sa,19741113,07 22393287
+rec-125-dup-1,,grombsll,18,dalyell street,,clayfield,vic,19700226,02 63861572
+rec-192-dup-0,kristo,brock,67,chewings street,wooloondool farm,jerrabomberra,nsp,19840627,03 99549462
+rec-193-dup-2,indiana,schuster,9,bailey olace,roseleigh farms,rothwell,,19260814,03 28925909
+rec-80-dup-1,mason,cade,6,hopegood place,,launceston south,nsw,19920414,07 27117249
+rec-21-org,blake,mitton,6,elvire place,,forth,sa,19740905,02 14649868
+rec-68-org,gabrielle,clarke,13,erldunda circuit,longplain,bundeena,wa,19900903,03 22624279
+rec-78-org,aiden,yost,23,armstrong crescent,fairburn park,glenmore park,vic,19890831,07 18636706
+rec-88-dup-1,teegan,billman,63,springvake drive,,rouse hill,nsw,19650228,04 31710220
+rec-59-org,caleb,lutz,118,macpherson street,,kendall,vic,,07 11074202
+rec-12-org,vanessa,trimble,69,wagstaff place,,currajong,vic,,07 03714680
+rec-190-dup-1,deakin,whetstone,1,lloyd place,,palmerston,nse,19890913,07 40658313
+rec-180-org,charlie,philippa,33,fidler court,heritage estate,aldgate,vic,19190420,04 20796868
+rec-77-org,joshua,waller,47,lyttleton crescent,,cronulla,nsw,19150416,08 81885988
+rec-104-dup-1,aihe,campbell,35,fullagar crescent,,blackbutt,,,07 56088028
+rec-85-org,karlee,norgate,26,macquarie street,valbella,seven hills,wa,19631031,04 83773399
+rec-188-dup-2,lara,bruhn,94,bambridge street,,denmark,nsw,19631118,03 02655327
+rec-73-dup-0,rourke,campbekl,10,burdekinpavenue,ardrossan,wangaratta,qld,19930208,
+rec-68-dup-1,gabrielle,clarke,1,erldundagcircuit,longplain,bundeena,wa,19900903,03 22624279
+rec-23-dup-1,samuel,mccarrhy,14,glossop ctescent,uc-dai-loi,pearcedale,,19880705,04 56505702
+rec-67-org,troy,dent,14,rohan rivett crescent,,seelands,qld,19090708,04 41032059
+rec-80-org,cade,mason,6,hopegood place,,launceston south,nsw,19920414,07 27117249
+rec-41-dup-0,joe,jessup,132,glasgow street,,st petkers,ws,19140225,04 07514663
+rec-149-org,joshua,crook,32,hugh mckay crescent,stockwell hotel,sussex inlet,wa,,08 60119081
+rec-98-org,phoebe,white,39,barnett close,windella downs,kallista,nsw,19210923,07 30436705
+rec-169-dup-2,lacblan,colfman,3,florence street,,reservoir east,vic,19580627,02 20831419
+rec-18-dup-3,conner,kremneff,2,macgregor street,koonawarra merino stud,young,vic,19901108,07 65691528
+rec-54-org,lily,mccarthy,3,bonython street,berowra,riverwood,,19740522,03 21974722
+rec-127-dup-1,alysss,mcfadden,681,merrett garden,,birralee,nsw,19570929,04 33718183
+rec-125-dup-0,hannah,gromball,18,dalyelk sreet,,clayfield,vic,19700226,02 63861572
+rec-134-dup-3,willkkm,van dereerden,35,petterd street,bogong apartments,niagara park,nsw,19750510,08 02974883
+rec-78-dup-3,aiden,yost,23,fairburn park,armstrong crescent,glenmore park,vic,19890831,07 18636706
+rec-147-dup-1,hamish,alderson,90,bragb treet,,ellen grove,wa,,07 01104163
+rec-97-org,logan,tsang,118,adinda street,,mosman,,19960119,08 85788340
+rec-181-org,hamish,mccarthy,18,currong street,,port macquarie,nsw,,07 54485614
+rec-103-org,jenna,teunissen,120,dumas street,,port augusta,qld,19150223,
+rec-172-dup-1,ewal,lena,6,fitzmaurice street,,avondale heights,nsw,19960913,02 27613135
+rec-24-dup-1,angeaica,whitd,45,jane price crescent,,castlemaine,wa,,07 82739703
+rec-48-dup-0,alexanda,lavender,9,dexter street,,the entrance,qlf,19400525,02 37636818
+rec-156-dup-0,lachlan,white,16,ambalindum street,mt pleasant,maclean,nsx,19001003,08 87870951
+rec-179-dup-1,tootell,domenique,28,hawkesbury crescent,,campsie,vic,19630116,04 25467054
+rec-20-org,reganne,campbell,1580,goyder street,,tarragindi,wa,19830224,04 83564509
+rec-169-org,lachlan,coleman,3,florence street,,reservoir east,vic,19580627,02 20831419
+rec-7-org,molly,ongley,145,pethebridge street,,keilor park,nsw,19690522,04 34412546
+rec-6-dup-2,blake,green,72,eildon place,,bundaberg,nw,19391226,04 76920581
+rec-140-dup-3,emiily,matthews,231,coolibav cr escent,,corlette,vic,19660904,02 01497840
+rec-95-dup-0,aimee,lomman,322,belconndn way,,albury,wq,19580420,04 15190366
+rec-184-dup-0,emiity,leslie,60,,highpoint,nuriootpa,vic,19520606,08 75052400
+rec-140-dup-2,emiyl,matthews,231,coolibah crescent,,corlette,vic,19660904,02 01497840
+rec-80-dup-3,cade,mason,6,hopegood place,ballenah,launcestonsouth,nsw,19920414,07 27117249
+rec-65-dup-1,matilda,twin,4,arthaldo court,rowethorpe,kingaroy,nw,19950301,02 45210505
+rec-81-dup-0,hannah,egan,56,,,keilor east,viu,19161218,03 22227954
+rec-142-dup-2,alexandra,white,9,nathan street,,daly,nsw,19620326,08 13220493
+rec-6-dup-1,blak,gren,72,eildon place,,bundaberg,nsw,19391226,04 76920581
+rec-37-dup-1,charlotte,trimmer,100,currong dtreet,,greenacre,vix,,03 46055565
+rec-185-dup-1,hoklie,fornarino,6,clive steeoe avenue,,hamilton,vic,19951019,07 05158222
+rec-137-org,sarah,lomman,2,kingscote crescent,,mitcham,qld,19790624,04 98965672
+rec-181-dup-3,hampsh,mccarthy,18,currong street,banksia groves,port macquarie,nsw,,07 54485614
+rec-18-dup-0,conner,kremneff,2,macgregor street,koonawarra merino stud,young,viv,19901108,
+rec-99-org,steven,braemer,36,wattle street,,spearwood,wa,19960203,08 48223748
+rec-132-dup-0,amy,teaoue,6,colebatch place,kerein hills,,nsw,19260701,03 54288060
+rec-181-dup-0,hami,mccarthy,18,currong street,,port macquarie,nsw,,07 54485614
+rec-33-org,chelsea,hand,524,bon place,elinure,paxton,qld,,07 85572183
+rec-191-dup-1,casey,clarke,8,florentine circuit,,caves beach,sa,19880210,04 87614422
+rec-105-dup-0,sarah,araiel,3,hickson lpace,,south perth,vic,19790506,07 75181241
+rec-115-org,lacey,lowe,14,napthali close,,lakemba,wa,19290711,08 37742393
+rec-85-dup-3,karlee,norgate,,macquarie street,valbella,seven hills,wa,19631031,04 83773399
+rec-186-org,hudson,dent,443,martens crescent,,heywood,nsw,19970207,02 67219086
+rec-58-dup-1,micharl,arley,4,meiklejohn place,rocklea,yeronga,vic,19900714,08 01263722
+rec-62-dup-0,hunter,vero,2,,,floeey,qld,19740220,04 35858285
+rec-71-dup-3,mitchell,shepeherd,32,dodgshun court,,clifton prings,vic,,08 11189816
+rec-19-org,shane,lero,124,mauger place,,toowoomba,nsw,19360905,02 01770572
+rec-169-dup-0,lachlan,coleman,3,street klorence,,reservoir east,vic,19580627,02 20831419
+rec-97-dup-3,logan,tsajg,118,adinda sreet,,mosman,,19960119,08 85788340
+rec-92-dup-1,,reid,255,bunton place,,cunninyeuk,vic,19700371,02 03080405
+rec-175-dup-0,caitlin,,125,broadsmithastreet,the mews royal hotel bldg,terrigal,nsw,19260218,04 14265635
+rec-24-dup-0,angelica,white,45,jane prich ceescent,,castlemaine,wa,,07 82739703
+rec-179-dup-2,domeique,tootell,28,hawkesbury crescent,,campsie,vic,19630116,04 25467054
+rec-84-dup-0,isabelle,felstehxd,132,bimberi crescent,highfield (cnr east tamar h highway,mirrabooka,,19710609,08 26987252
+rec-61-dup-3,trevor,quinton,262,jabanungga avenue,,murgom,qld,19620510,08 02944328
+rec-67-dup-1,troy,dent,14,rohan rivegtqcrescent,,seelands,qld,19090708,04 41032059
+rec-129-dup-2,samantha,scougall,6,abercrombe vircuit,,alice springs,nsw,19850526,03 84974796
+rec-29-dup-1,deakyb,reid,179,mileham street,villa 3,beecroft,qld,19131115,08 93479341
+rec-54-dup-0,lily,mccaryhy,3,bonython street,,riverwood,,19740522,03 21974722
+rec-57-org,connor,campbell,50,paterson street,,bonalbo,nsw,19470108,03 82408056
+rec-58-dup-0,micah,arland,4,meiklejohb place,rocklea,yeronga,vic,19900714,08 01263722
+rec-147-dup-2,alderson,hamish,90,bragg street,,ellen grove,wa,,07 01104163
+rec-113-org,jack,burford,27,paul coe crescent,roblinvale,sale,vic,19261021,08 87285022
+rec-71-dup-1,mitchll,shepherd,3,dodgshun court,,clifton springs,vic,,08 11189816
+rec-20-dup-1,reganne,campbell,1580,goyder street,,tarragindi,wa,19830194,04 83564509
+rec-6-org,blake,green,72,eildon place,,bundaberg,nsw,19391226,04 76920581
+rec-18-dup-2,connor,kremneff,20,macgregor street,,young,vic,19901108,
+rec-7-dup-1,moln,ongley,145,pethebridge street,,keilor park,nsw,19690522,04 34412546
+rec-81-dup-2,hannah,egan,56,myall street,,keilor ydast,vic,19161218,03 22227954
+rec-60-org,lauren,matthews,497,mina wylie crescent,,surrey hills,qld,19090924,03 23679570
+rec-109-dup-0,coroq,,20,nulsen circuit,halfway hill,kellyville,,19920624,07 91444562
+rec-162-org,amber,morrison,7,,,castlemaine,vic,19340515,02 33630811
+rec-42-dup-1,rohan,statton,25,mellor circuit,rheo bland,stanmore,,19560823,07 55313810
+rec-46-org,luke,rothe,30,,,north haven,qld,19750904,07 02175932
+rec-81-org,hannah,egan,56,myall street,,keilor east,vic,19161218,03 22227954
+rec-52-dup-2,sian,michail,38,cannan crescent,,west perth,wa,19010403,07 29202395
+rec-198-dup-3,lauren,wisemsn,4,denovan circuit,,dandenong north,vic,19471123,08 13528898
+rec-107-dup-0,mo vly,sukh,217,davidson street,,mount evelyn,wa,19371029,08 58223287
+rec-95-dup-1,aimee,lommag,322,belconnen way,,albury,wa,19580420,04 15190366
+rec-97-dup-0,logan,tsang,,adindagstreet,,mosman,,19960119,08 85788340
+rec-51-dup-0,joe l,staggard,8,costello ircuit,glenbrook orchard,crows nest,vic,19010731,03 07156886
+rec-38-org,sam,gilfelt,26,bremer street,,north rocks,qld,19920922,
+rec-174-dup-0,joshua,wyllie,33,oxley stfpreet,,berwick,,19281001,03 69428991
+rec-76-dup-1,max,gold,106,carnegie dfescent,narraburra lodge,campsie,,19910226,08 25930979
+rec-140-dup-1,emiily,matthews,231,coolibah reescent,,corlette,vic,19660904,02 01497840
+rec-16-dup-3,olivia,mcneill,9,james smitv zircuit,crestwood,huonville,sa,19940621,02 53303772
+rec-124-org,marcus,bloomfield,2,fairfax street,nepean shores,nowra,,19920815,
+rec-29-dup-0,deakij,reid,179,mileham dtreet,villa 3,beecroft,qld,19131115,08 93479341
+rec-115-dup-1,laey,loqe,14,napthali close,,lakemba,wa,19290711,08 37742393
+rec-127-dup-0,alyssa,mcfadden,68,merrett garden,,birralee,nsw,19572979,04 33718183
+rec-118-dup-3,noah,jiang,,la perouxestreet,kinross,harbord,,19000106,04 84404204
+rec-121-dup-0,anneliexse,buolock,6,kingsford smith drive,balmoral garden,cable beach,nsw,19271203,02 03728292
+rec-16-dup-2,olivia,mcneill,9,james smith circuit,crestwood,huonville,sa,19902621,02 53303772
+rec-190-dup-0,deajin,whetstone,12,lloyd place,,palmerston,nsw,19899913,07 40658313
+rec-133-org,emiily,rogan,85,jevons place,brentwood vlge,bull creek,,19410720,07 22312617
+rec-177-org,jaggah,fitzpatrick,43,kirwan circuit,,chinchilla,,,07 04402800
+rec-89-dup-2,sam,paine,102,miller ustreet,roskhill,oakhurst,qld,19451202,07 25709857
+rec-153-org,keahley,rundle,13,badimara street,,narembeen east,qld,19261224,03 05450786
+rec-106-org,jacinta,rocca,111,burdekin street,,penrith,,19440602,08 80435311
+rec-166-dup-0,sandue,mckone,22,rivers street,,sherwood,vic,19670829,08 39623989
+rec-195-org,carmen,hand,8,cottam place,hallsville,newmarket,qld,,03 27226016
+rec-118-dup-2,noha,jiang,,la perousr street,kinross,harbord,,19000106,04 84404204
+rec-100-org,isabella,badowicz,4,charterisville avenue,medical centre,nunawading,nsw,19890217,07 27362905
+rec-105-dup-1,sabah,arakeil,3,hickson place,,south perth,vic,19790506,07 75181241
+rec-24-org,angelica,white,45,jane price crescent,,castlemaine,wa,,07 82739703
+rec-47-dup-1,ethadn,giordano,13,springvaze drive,,parmelia,qld,19080107,07 95114905
+rec-102-org,chloe,madigan,168,mcmaster street,lynalan,naremburn,nsw,19720209,02 45209068
+rec-41-org,joe,jessup,132,glasgow street,,st peters,wa,19140225,04 07514663
+rec-97-dup-1,tsang,logan,118,adinda street,,mosman,,19960119,08 85788340
+rec-157-dup-1,kayla,jesser,17,place yuck,lake kiwarry,mosman,nsw,19380420,08 91719827
+rec-79-org,joshua,kopecki,40,amaroo street,,hawthorne,vic,19110118,03 52779265
+rec-152-org,timothy,reid,282,christie place,,malvern east,vic,19480719,04 64907378
+rec-116-org,daniel,babos,3,beasley street,,parkdale,,19711204,03 22788573
+rec-49-dup-1,aiden,mainero,5,scarlett street,,nudgee,qld,,
+rec-70-dup-1,connor,gibl,4,kambalda crescent,,modbuy,sa,19280415,08 56026449
+rec-157-dup-2,kayla,jesker,17,tuck place,lake kiwarry,mosman,nsw,19380420,08 91719827
+rec-170-org,ebony,noble,32,weston street,aintree,surry hills,vic,19781222,03 04570686
+rec-72-dup-1,mitcmhrll,hinchey,173,bunny street,,leichhardt,nsw,19480303,07 02263928
+rec-187-dup-0,isablla,russin,100,conifer avenue,,belgraev,act,19980610,02 27358241
+rec-165-dup-0,mac,petersen,10,fraenkel istreet,,taringa,nsw,,
+rec-48-org,alexandra,lavender,9,dexter street,,the entrance,qld,19400525,02 37636818
+rec-72-dup-2,mitecll,hinchey,173,bunny street,,leichhardt,nsw,19480303,07 02263928
+rec-151-dup-2,micuael,,16,hurwood place,,naremburn,qld,19020922,02 02053809
+rec-0-dup-3,wil,webg,135,aspinall street,,albion park,vic,,02 80006990
+rec-197-org,paris,hathaway,317,goyder street,tathra river est,spring hill,vic,19590314,04 22061862
+rec-62-dup-3,huntef,verco,2,,,coombabah,qld,19740220,04 35858285
+rec-36-org,joselyn,simitsis,,johnstone circuit,,parkerville,,19091204,04 37952238
+rec-18-dup-1,conn,kremneff,2,macgregor street,koonawarra merino stud,young,vic,19901108,
+rec-136-dup-1,prudence,ryakn,43,savery street,,rosetta,nsw,19890124,08 00911048
+rec-39-dup-1,carly,friswdll,12,moir plsce,,marsden,vic,19951104,04 21025492
+rec-143-org,olivia,quan,118,gleadow street,nara cottage,mundingburra,vic,19571109,03 82381467
+rec-173-dup-0,michael,bishop,41,fincham vrescent,,mount pleasant,vic,19260311,08 04642055
+rec-109-dup-1,corey,,20,nulsen circuit,halfway hill,kellyville,vid,19920624,07 91444562
+rec-7-dup-0,molly,ongkeh,145,pethebridge street,,keilor park,nsw,19690522,04 34412546
+rec-36-dup-0,joselyn,simitsis,,johnston icrcuit,,parkerville,,19091204,04 37952238
+rec-5-org,emiily,tapper,46,badimara street,,greenacre,,19930414,04 31646602
+rec-134-dup-1,willkm,van dereerden,35,petterd street,bogong apartments,niagara park,nsw,19750510,08 02974883
+rec-16-dup-0,olifia,mcneill,9,james smirh circuit,crestwood,huonville,sa,19940621,02 53303772
+rec-96-org,sachin,renfrey,48,sollya place,,curl curl,qld,19980609,08 52681344
+rec-138-dup-1,jessica,drady,1,melrosedrive,sattwa park,macgregor,qld,19700702,
+rec-50-org,thomas,feil,43,hadleigh circuit,,forrestfield,,19250125,02 30645117
+rec-76-dup-2,max,gollt,106,carnegie crescent,narraburra lodge,campsie,,19910226,08 25930979
+rec-109-dup-3,corey,,28,nulsen circuit,halfway hill,kellyville,,19920624,07 91443562
+rec-187-dup-1,isablla,russin,100,conifer avenue,,belgrave,act,19986010,02 27358241
+rec-64-org,oakleigh,yost,17,twelve trees crescent,elston,brighton,vic,19901225,03 66824869
+rec-104-dup-0,aimee,cambdll,35,fullagar crescent,,blackbutt,,,07 56088028
+rec-90-org,emma,mao,19,birdwood street,pacific haven,oakden,sa,19541207,02 11323617
+rec-160-dup-2,clodagh,sajl,112,beedham place,,canary island,wa,19761013,08 61722191
+rec-67-dup-2,troi,dernt,14,rohan rivett crescent,,seelands,qld,19090708,04 41032059
+rec-105-org,sarah,arakiel,3,hickson place,,south perth,vic,19790506,07 75181241
+rec-68-dup-0,gabrixlle,clarke,13,erldunda circuit,longplain,bundeena,wa,19900903,03 22624279
+rec-51-dup-1,joel,stagiard,82,costello circuit,glenbrook orchard,crows nest,vic,19010731,03 07156886
+rec-35-org,samuel,reid,33,fenwick place,,lutwyche,nsw,19011209,08 71468618
+rec-142-dup-1,alexandra,white,91,nathan street,aintree,dalvy,nsw,19620326,08 13220493
+rec-49-dup-3,aien,bibby,58,scarlett street,,nudgee,qld,,
+rec-192-dup-1,chrisvo,brock,69,chewings street,wooloondool farm,jerrabomberra,nsw,19840627,03 99549462
+rec-101-dup-1,robert,kerschke,13,hargrave dstreet,,terranora,act,19791127,02 65792813
+rec-62-dup-2,huntdy,verco,2,,,florey,qld,19740220,04 35858285
+rec-84-dup-2,blake,felstead,132,bimberi crescent,,mirrabooka,,19710609,08 26987252
+rec-65-org,matilda,twin,4,arthaldo court,rowethorpe,kingaroy,nsw,19950301,02 45210505
+rec-61-dup-1,trevo,quinton,262,jabanunfga avenue,,murgon,vic,19620510,08 02944328
+rec-164-org,bailee,mapstone,402,sugarloaf circuit,huntington,caulfield north,,19441115,04 52536767
+rec-107-dup-1,mollp,sukh,217,davidson street,,mount evelyn,wa,19371029,08 58223287
+rec-73-org,rourke,campbell,10,burdekin avenue,ardrossan,wangaratta,qld,19930208,
+rec-107-dup-2,mooly,sukh,217,davidson street,,mount evelyn,w,19371029,08 58223287
+rec-7-dup-2,molly,onkgley,145,pethebridgestreet,,keilor park,nsw,19690522,04 34412546
+rec-80-dup-2,cade,mason,6,hopegood place,,launcestonsouth,nsw,,07 27117249
+rec-160-org,clodagh,saul,112,beedham place,,canary island,wa,19761013,08 67122191
+rec-182-dup-0,jasmyn,finlay,7,barringtoz crescent,,bickley,nsw,19581031,08 65258867
+rec-138-org,jessica,drady,1,melrose drive,sattwa park,macgregor,qld,19700702,07 09884741
+rec-48-dup-1,lavender,alexandra,9,dexter street,,the entrance,qld,19400525,02 37636818
+rec-112-org,abbey,dittmayer,10,busby street,rowethorpe,cleveland,wa,19650419,02 77455695
+rec-192-dup-2,kristo,brock,69,chewingsistreet,wooloondool farm,jerrabomberra,nsw,19840627,03 99549462
+rec-148-dup-2,rebecca,rees,40,belconnde way,,kedron,,19830914,07 81960884
+rec-105-dup-2,sar,arakiel,3,hickson place,,south perth,vic,19790506,07 75181241
+rec-185-dup-0,hollie,fornarino,6,clive steele avenue,,hamiktn,vic,19951019,07 05158222
+rec-28-org,michael,bhalla,1,parkwood road,st vincents medical centre,stretton,qld,19910618,02 37481179
+rec-198-dup-1,lauroen,wiseman,4,denovan circuit,,dandenong north,vic,19471223,08 13528898
+rec-63-org,nicholas,rollins,31,atherton street,walea,crestmead,sa,19580419,08 08564722
+rec-170-dup-1,ebony,noble,32,weston street,aintree,surry ills,vic,19781222,03 04570686
+rec-178-org,jasmine,butter,74,narryer close,,bowen hills,,19960611,07 13978825
+rec-101-org,robert,kerschke,13,hargrave street,,terranora,act,19791127,02 65798213
+rec-53-org,,dargaville,21,freda bennett circuit,elverstone,fletcher,tas,19500512,02 28390519
+rec-120-dup-0,jack,egan,38,yambina crecent,,aubusrn,,,04 04371034
+rec-194-dup-3,portia,whinfield,4,street msclachlan,,waterloo,wa,19620914,08 19178739
+rec-37-dup-0,charlotte,trummer,100,currong street,,greencare,vic,,03 46055565
+rec-140-dup-0,emiily,mattmews,261,coolibah crescent,,corlette,vic,19660904,02 01497840
+rec-47-dup-0,ethan,giordano,13,springvale zdrive,,parmelia,qlf,19080107,07 95114905
+rec-15-org,dean,painter,7,copland drive,drypoint,granville,vic,19990417,04 82890718
+rec-153-dup-0,keahley,runle,14,badimara street,,narembeen east,qld,19261224,03 05450786
+rec-31-dup-3,elijah,cowvl,21,moorhouse street,,kyabram,nsw,19290411,07 81959107
+rec-144-dup-0,camell,benjamin,58,brier place,,keilor east,,19551024,08 67653904
+rec-101-dup-0,robert,kerschke,13,hargrave street,,terranora,act,19791177,02 65798213
+rec-144-org,campbell,benjamin,58,brier place,,keilor east,,19551024,08 67653904
+rec-102-dup-3,chloe,madigan,168,mcmaster etreet,lynalan,narembunr,nsw,19720209,02 45209068
+rec-0-dup-2,wiol,webb,135,aspinall street,,albion park,vic,,02 80906990
+rec-184-org,emiily,leslie,60,miller street,highpoint,nuriootpa,vic,19520606,08 75052400
+rec-7-dup-3,molly,ongoey,146,pethebridge street,,keilor park,nsw,19690522,04 34412546
+rec-183-org,tanar,campbell,7,currong street,,ascot vale,wa,19410814,08 31194399
+rec-167-dup-1,beattie,chloe,10,may maxwell crescent,,mill park,vic,19580811,02 41325455
+rec-66-org,jasmyn,clarke,4,carnegie crescent,,hermit park,qld,19781128,03 71815681
+rec-1-org,logan,coatsworth,2,currie crescent,lyndilan,belmont,act,,02 43034878
+rec-147-org,hamish,alderson,90,bragg street,,ellen grove,wa,,07 01104163
+rec-192-org,kristo,brock,69,chewings street,wooloondool farm,jerrabomberra,nsw,19840627,03 99549462
+rec-118-dup-1,noav,jiang,,la perouse street,kinross,harbord,,19000106,04 84404204
+rec-178-dup-2,jasmieb,butter,74,narryer close,,bowen hills,,19960611,07 13978825
+rec-67-dup-3,troy,dett,14,rohan rivett crescent,,seelands,qld,19099708,04 41032059
+rec-74-dup-1,thomas,boyle,15,tesbury,pandanus street,moss vale,vic,,03 51416192
+rec-80-dup-0,cade,malod,6,hopegood place,,launceston south,nsw,19920414,07 27117249
+rec-25-dup-3,madison,blunden,15,tingha place,,riverwood,qld,,02 75147408
+rec-107-org,molly,sukh,217,davidson street,,mount evelyn,wa,19371029,08 58223287
+rec-30-org,jack,raftopoulos,77,harris street,balamba,yennora,nsw,19490804,04 49722852
+rec-85-dup-1,karlee,norgatc,26,macquarie sqtreet,valbella,seven hills,wa,19631031,04 83773399
+rec-84-dup-1,isabele,felstead,132,bimberi crescent,highfield (cnr east tamar h highway,mirragooka,,19710609,08 26987252
+rec-171-org,andie,colegate,36,kinnimo place,,kelmscott,sa,19601006,03 56523060
+rec-160-dup-0,clodshh,saul,112,beedham place,,canary island,wa,19761013,08 67122191
+rec-141-org,jessica,liddy,15,karney place,,minto,wa,19911214,04 07561390
+rec-61-dup-2,trevor,quinton,72,jabanungga avenue,,murgon,vic,19620510,08 02944328
+rec-131-dup-0,noah,campbell,12,kintore crarscent,killara lodge,narellan vale,act,19410222,04 19077258
+rec-145-dup-2,sophie,mikaewski,21,barclay street,merricroft,islingtown,,19870325,03 59953837
+rec-184-dup-1,emiily,leskie,60,miller street,highpoint,nuriiotpa,vic,19520606,08 75052400
+rec-87-org,william,clarke,5,fizelle place,rosehill,toowoomba,vic,19570406,04 31958284
+rec-134-dup-2,willam,van derseerden,35,petterd street,bogong apartments,niagara park,nsw,19750510,08 02974883
+rec-43-dup-1,cambell,shorrock,13,nymagreqplace,,orange,,19101128,08 60730552
+rec-10-org,charlotte,winnett,5,william street,the willows,frankston,vic,19950622,02 00401301
+rec-42-org,ronan,statton,25,mellor circuit,rheo bland,stanmore,,19560623,07 55313810
+rec-15-dup-0,dean,painter,7,coplandrfrive,drypoint,granville,vic,19990417,04 82890718
+rec-163-dup-1,ajay,hoffman,44,smith cossinzton crescent,,paddington,vic,19530716,03 79842090
+rec-51-org,joel,staggard,8,costello circuit,glenbrook orchard,crows nest,vic,19010731,03 07156886
+rec-76-dup-3,mca,gold,106,carnegie crescent,narraburra lodge,campsie,,19910226,08 25930979
+rec-157-org,kayla,jesser,17,tuck place,lake kiwarry,mosman,nsw,19380420,08 91719827
+rec-169-dup-1,lachlan,coleman,3,florenc extreet,,reservoir east,vic,19580627,02 20831419
+rec-123-org,brooke,berry,35,alice jackson crescent,,bunyip,nsw,19570819,
+rec-198-org,lauren,wiseman,4,denovan circuit,,dandenong north,vic,19471223,08 13528898
+rec-0-dup-0,will,webv,135,aspinall street,,albiom park,vic,,02 80006990
+rec-131-dup-1,nowh,cambell,12,kintore crescent,killara lodge,narellan vale,act,19410222,04 19077258
+rec-62-org,hunter,verco,2,,,florey,qld,19740220,04 35858285
+rec-109-dup-2,cokey,,20,nulsen circuit,halfway hill,kellyville,,19920624,07 91444562
+rec-147-dup-0,hamish,alderson,90,bragg street,mt plaesant,ellen grove,wa,,07 01104163
+rec-41-dup-2,joe,jessup,131,glasgow street,,,wa,19140225,04 07514663
+rec-194-dup-1,portia,whinfield,1,maclachlak street,,waterloo,wa,19620914,08 19178739
+rec-148-dup-1,rebecca,reesd,40,belconnenfway,,kedron,,19830914,07 81960884
+rec-170-dup-2,ebony,noble,38,weston street,aintree,surry hills,vic,19781222,03 04574686
+rec-148-dup-0,rebwcca,rees,40,belconnen way,,kedron,,19830914,02 13450400
+rec-62-dup-1,hunter,cachka,2,,,florey,qld,19740220,04 35858285
+rec-139-dup-1,cooper,megovimovic,3,onians place,unt 2,swanplol,,19910608,07 74512144
+rec-193-dup-1,indianah,schuster,30,bailey place,roseleigh farms,rothwell,,19260814,03 28924909
+rec-188-org,lara,bruhn,94,weetman place,,denmark,nsw,19631118,03 02655327
+rec-60-dup-1,lauren,matthwes,497,,,surrey hills,qld,19090924,03 23679570
+rec-54-dup-1,lily,mccarthy,79,bonython street,berowra,riverwood,,19740522,03 21974722
+rec-138-dup-0,jessica,drady,10,melrose drive,sattwa park,macgregor,qld,19700702,07 09864741
+rec-119-dup-0,nemeas,colquhoun,14,,nareen gardens hostel,robina,nsw,,07 82624295
+rec-174-org,joshua,wyllie,33,oxley street,,berwick,,19281001,03 69428991
+rec-22-org,jesse,mccarthy,8,garrard street,,beenleigh,qld,19301229,03 01987550
+rec-42-dup-3,ronan,statton,25,mellor circuit,rheo bland,stanmore,,19560623,07 56312810
+rec-20-dup-0,reganne,campbell,1590,goyder street,,tarrabindi,wa,19830224,04 83564509
+rec-136-dup-3,prudence,ryan,43,cruikshankystreet,,rosetta,nsw,19890124,08 00191048
+rec-2-org,heath,clarke,5,cockle street,,abbotsford,vic,19670109,03 94329114
+rec-48-dup-2,alexandra,lavender,9,dexter street,,the entrance,,19400525,04 53114714
+rec-114-dup-1,quinn,hnaeaks,38,ratcliffe crescent,,eaton,tas,,08 52778998
+rec-129-dup-3,samantga,scogall,6,abercrombie circuit,,alice springs,nsw,19850526,03 84974796
+rec-83-dup-2,blayke,balasubamaniam,124,anembo street,the tzops,carlingford,nsw,19780203,04 13569559
+rec-163-dup-0,ajay,hoffman,44,cossington smith crescent,,paddington,vic,19530716,03 78943090
+rec-65-dup-0,matilda,twiu,4,arthald ocourt,rowethorpe,kingaroy,nsw,19950301,02 45210505
+rec-150-org,nathan,bradshaw,123,watling place,,broadwater,sa,19850919,03 66333133
+rec-34-org,isabella,goodacre,41,,mason street,chain valley bay,qld,19121007,08 05361147
+rec-182-org,jasmyn,finlay,7,barrington crescent,,bickley,nsw,19581031,08 65258867
+rec-51-dup-2,joel,staggard,8,glenbrook orchard,costello circuit,crows nest,vic,19010731,03 07156886
+rec-194-dup-0,portia,whinfoeeld,4,maclachlan street,,waterloo,wa,19620914,08 19178739
+rec-173-org,michael,bishop,41,fincham crescent,,mount pleasant,vic,19260311,08 04642055
+rec-45-dup-1,ashlie,ryan,45,sturdee crescent,,yarrawonga,vic,19920321,08 04484976
+rec-122-org,jayden,lock,16,nealie place,argyle village,orange,nsw,19870831,03 15149269
+rec-143-dup-0,quan,olivia,118,gleadow street,nara cottage,mundingburra,vic,19571109,03 82381467
+rec-156-dup-1,lachlan,white,19,ambalindum street,mt pleasant,maclean,nsw,19001000,08 87870951
+rec-145-org,sophie,mikajewski,21,barclay street,merricroft,islington,,19870325,03 59953837
+rec-166-org,alexandra,mckone,22,rivers street,,sherwood,vic,19670829,08 39623989
+rec-189-org,zachary,,5,bungonia street,riverside park,colonel light gardens,vic,19500910,02 02568175
+rec-25-dup-1,madisxon,blunden,15,birdwood street,,rivereood,qld,,02 75147408
+rec-163-dup-3,ajay,hoffnan,4,cossington smith crescent,,paddington,vic,19530716,03 79842090
+rec-178-dup-0,jasmine,butter,,narryer close,,bowen hills,,19960911,07 13978825
+rec-175-org,caitlin,,124,broadsmith street,the mews royal hotel bldg,terrigal,nsw,19260218,04 14265635
+rec-190-org,deakin,whetstone,12,lloyd place,,palmerston,nsw,19890913,07 40658313
+rec-52-dup-3,sian ,michail,38,cannan crescent,,west perth,wa,19010403,07 27573090
+rec-71-org,mitchell,shepherd,32,dodgshun court,,clifton springs,vic,,08 11189816
+rec-128-org,amber,berry,13,cooloola street,,cronulla,qld,19701124,04 62564648
+rec-125-org,hannah,gromball,18,dalyell street,,clayfield,vic,19700226,02 63861572
+rec-172-dup-2,ewan,lena,6,fitzmaurice street,,avondale neights,nsw,19960903,02 27613135
+rec-199-dup-0,emiiy,berry,56,clisbypclose,gleneriffe,coolamon,,19691203,04 00352853
+rec-129-org,samantha,scougall,6,abercrombie circuit,,alice springs,nsw,19850526,03 84974796
+rec-158-dup-2,hannah,morcom,6,biffin street,,paringa,nsw,19570104,04 14106778
+rec-198-dup-2,larue,wiseman,4,denovan circuit,,dandenong north,vic,19471223,08 13528898
+rec-181-dup-2,hamish,mccarthy,18,currong street,,macquarrie port,nsw,,07 54485614
+rec-148-org,rebecca,rees,40,belconnen way,,kedron,,19830914,07 81960884
+rec-117-org,charlotte,campbell,40,discovery street,,ulverstone,nsw,19480725,02 01052124
+rec-39-dup-2,carh,friswell,12,moir place,,marsden,vic,19951104,04 21025492
+rec-78-dup-1,aiden,yost,23,armstrong frescent,,glenmore park,vic,19890831,07 18636706
+rec-88-dup-2,teegan,billman,6,springvale drive,,rous ehkll,nsw,19650228,04 31710220
+rec-146-org,olivia,cuming,38,yamba place,,junee,qld,19490610,04 99156422
+rec-78-dup-0,aiden,yost,23,kalgoorlie crescent,fairburn park,glenmore park,vic,19890831,07 18636706
+rec-117-dup-0,charlotte,campbell,40,discovera street,,ulverstone,nsw,19480725,02 01052124
+rec-108-org,kyle,green,32,badimara street,,cobains,wa,19380221,02 77406627
+rec-39-dup-0,cary,friswell,12,moir place,,marsden,vi,19951104,04 21025492
+rec-6-dup-3,blake,green,72,eildon oace,,bundaberg,nsw,19391226,04 76920581
+rec-138-dup-2,jessica,drady,1,melrose mrive,sattwi park,macgregor,qld,19700702,07 09884741
+rec-142-dup-3,white,alexandra,9,nathan street,aintree,dalby,nsw,19620326,08 13220493
+rec-58-dup-2,michael,arlahd,4,meiklejohn place,,yeronga,vic,19900714,08 01263722
+rec-191-dup-0,casy,clarke,8,florentine dircuit,rosetta village,caves beach,wa,19880210,04 87614422
+rec-135-org,hayley,campbell,27,sellwood street,rmbh 884,plumpton,vic,,02 94231075
+rec-166-dup-1,alexznfra,mckone,22,rivers street,,sherwood,vic,19670829,08 39623989
+rec-45-dup-2,ashlie,rytak,35,sturdee crescent,,yarrawonga,vic,19920321,08 04484976
+rec-83-dup-1,blayke,balasubramaniam,124,anembo stteet,the tops,carlingford,nsw,19780203,
+rec-188-dup-3,lara,bruhn,94,weetman g place,,denmark,nsw,19631118,03 02655327
+rec-147-dup-3,hamish,alderson,91,bragg street,,ellen grove,wa,,07 01104163
+rec-194-dup-2,portua,whinfweld,4,maclachlan street,,waterloo,wa,19620914,08 19178739
+rec-85-dup-2,karlee,norgate,26,macquarie street,valbella,seven hills,wi,19631931,04 83773399
+rec-82-org,tara,pettingill,48,archibald street,,canterbury,nsw,19830419,04 30401637
+rec-191-dup-2,cadgy,clarke,8,florentine circuit,rosetta village,caves beach,wa,19880210,04 87614422
+rec-73-dup-1,rourke,campbell,10,burdekin avenue,ardrossan,wangaatta,qld,19930208,
+rec-182-dup-2,jasmyn,finlay,6,barringtoncrescent,,bickley,nsw,19581031,08 65258867
+rec-173-dup-1,michawl,bishop,41,fincham crkescent,,mount pleasant,vic,19260311,08 04642055
+rec-52-dup-1,siaj,michail,38,cannan crsecent,,west perth,wa,19010403,07 27573090
+rec-27-org,rosa,bronwyn,4,simmons place,fig trees,bellevue hill,qld,19230227,03 54429182
+rec-11-dup-0,teegn,fenwick,13,ryrie street,,st lucia,nsw,19801220,03 27254162
+rec-170-dup-3,ebony,nolx,32,weston street,aintree,surry hills,vic,19781222,03 04570686
+rec-6-dup-0,blakee,green,72,eildon place,,bundaberg,nsws,19391226,04 76920581
+rec-142-org,alexandra,white,9,nathan street,aintree,dalby,nsw,19620326,08 13220493
+rec-33-dup-0,chelsea,hand,524,,elinure,paxtob,qld,,07 85572183
+rec-11-dup-1,teegan,fenwick,13,ryrieystqeet,,st lucia,nsw,19801220,03 27254162
+rec-174-dup-1,josh,wylkie,33,oxley street,,berwick,,19281001,03 69428991
+rec-45-dup-0,ashlie,ryan,35,sturdee crescent,,yarrawxna,vic,19920321,08 04484976
+rec-144-dup-2,benjamin,campbell,58,brier place,,keilor east,,19551024,08 67653904
+rec-88-dup-3,teegan,bilkman,6,springvalw drive,,rouse hill,nsw,19650228,04 31710220
+rec-18-org,connor,kremneff,2,macgregor street,koonawarra merino stud,young,vic,19901108,
+rec-49-dup-2,aiden,mainero,58,scarletmtstreet,,nudgee,qld,,
+rec-42-dup-2,ronank,statton,25,mellorcircuit,rheo bland,stanmore,,19560623,07 55313810
+rec-9-org,paris,gers,59,noarlunga crescent,,rainworth,,19260430,08 08969486
+rec-83-dup-3,blayke,balasubarmaniam,124,anembo street,the tops,carlinfford,nsw,19780203,04 13569559
+rec-117-dup-1,charlotte,campbjell,40,discovery dtreet,,ulverstone,nsw,19480725,02 01052124
+rec-40-dup-0,isabelle,webb,492,harrison street,,beverley park,nsw,,03 62868585
+rec-93-dup-2,shakira,bishop,151,oakwood place,ballawinna stud,mount eb liza,,19620409,
+rec-189-dup-0,zack,,4,bungonia street,riverside park,colonel light gardens,vic,19500910,02 02568175
+rec-130-dup-1,bailley,grewe,129,,kepnock grove,narre warren north,vic,19801015,03 78047899
+rec-163-dup-2,aja,ho ffman,44,cossington smith crescent,,paddington,vic,19530716,03 79842090
+rec-31-dup-0,elijaw,cowelo,21,moorhouse street,,kyabram,nsw,19290411,07 81959107
+rec-26-dup-0,seanna,ngai,41,,,belmonth,viac,19111231,07 67170713
+rec-154-org,jasmine,burgar,91,hooper crescent,karlindi,frankston,vic,19870809,08 59910228
+rec-5-dup-0,emiily,tapper,46,badimar aestreet,,greenacre,,19930414,04 31646602
+rec-91-org,brock,dallas,23,tallara parkway,,north hobart,,19280304,02 91734321
+rec-61-dup-0,trevor,quinton,262,jabanunga avenue,,murgon,vix,19620510,08 02944328
+rec-126-org,renai,willing,27,paul coe crescent,,parmelia,nsw,19591108,07 40724377
+rec-5-dup-1,,tappef,46,badimara street,,greenacre,,19930414,04 31646602
+rec-158-dup-0,hannaz,morcom,2,biffin street,,paringa,nsw,19570104,04 14106778
+rec-104-dup-2,campbell,aimee,35,fullagar crescent,,blackbutt,,,07 56088028
+rec-25-dup-2,madison,blunden,5,birdwood street,,riverwood,qld,,02 75147408
+rec-173-dup-2,michael,bishop,41,fincham recent,,mount pleasant,vic,19260311,08 04642055
+rec-199-dup-1,emiily,berry,56,clisby close,,coolamon,,19691293,04 00352853
+rec-16-dup-1,olivoa,mcneill,9,james smith circuit,,huonville,sa,19940621,02 53303772
+rec-37-dup-2,charlotte,trimmer,192,currong street,,greenacre,vic,,03 46055565
+rec-130-org,bailley,grewe,118,,kepnock grove,narre warren north,vic,19801015,03 78047899
+rec-132-org,amy,teague,6,colebatch place,kerein hills,,nsw,19260701,03 54288060
+rec-24-dup-3,angelica,white,45,jane pricecrjscent,,castlemaine,wa,,07 82739703
+rec-199-org,emiily,berry,56,clisby close,gleneriffe,coolamon,,19691203,04 00352853
+rec-15-dup-1,dean,painter,7,copland qdrive,,granville,vic,19990417,04 82890718

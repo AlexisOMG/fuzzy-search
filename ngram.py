@@ -26,6 +26,7 @@ def n_gram_similarity(strings, target, n, threshold):
         if n_gram in inverted_index:
             for idx in inverted_index[n_gram]:
                 scores[idx] = dice_coefficient(n_gram_sets[idx], target_n_grams)
+                print(scores[idx])
 
                 
 
@@ -37,9 +38,9 @@ def n_gram_similarity(strings, target, n, threshold):
 
 # Example usage:
 strings = ["apple", "banana", "grape", "pineapple", "peach", "grapefruit"]
-target = "papaya"
+target = "app"
 n = 2
-threshold = 0.2
+threshold = 0.4
 
 matching_indices = n_gram_similarity(strings, target, n, threshold)
 print(f"Matching strings: {[strings[idx] for idx in matching_indices]}")

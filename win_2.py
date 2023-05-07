@@ -3,6 +3,8 @@ from typing import List, Tuple, Dict
 
 from hashlib import md5
 
+from distances.jaccard import jaccard_similarity as js
+
 def compute_hashes(tokens: List[str]) -> List[int]:
     # Вычисление хеш-значений для токенов с использованием md5
     return [int(md5(token.encode('utf-8')).hexdigest(), 16) for token in tokens]
@@ -19,12 +21,7 @@ def create_fingerprints(hashes: List[int], window_size: int) -> List[int]:
     return fingerprints
 
 def jaccard_similarity(fingerprints1: List[int], fingerprints2: List[int]) -> float:
-    # Вычисление сходства Жаккара
-    set1 = set(fingerprints1)
-    set2 = set(fingerprints2)
-    intersection = len(set1.intersection(set2))
-    union = len(set1.union(set2))
-    return intersection / union
+    return js(set(fingerprints1), set(fingerprints2))
 
 # def winnowing(text1: str, text2: str, window_size: int) -> float:
 #     tokens1 = tokenize(text1)
