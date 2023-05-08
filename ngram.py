@@ -1,3 +1,5 @@
+from typing import List, Dict
+
 def n_grams(string, n):
     return [string[i:i + n] for i in range(len(string) - n + 1)]
 
@@ -12,7 +14,7 @@ def n_gram_similarity(strings, target, n, threshold):
     n_gram_sets = [set(n_grams(string, n)) for string in strings]
     
     # Step 2: Indexing (inverted index)
-    inverted_index = {}
+    inverted_index: Dict[str, List[int]] = {}
     for idx, n_gram_set in enumerate(n_gram_sets):
         for n_gram in n_gram_set:
             if n_gram not in inverted_index:
