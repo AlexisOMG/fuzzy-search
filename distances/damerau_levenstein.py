@@ -19,9 +19,6 @@ def damerau_levenshtein_distance_1(A, B):
 
   return F[n][m]
 
-print(damerau_levenshtein_distance_1("XABCDE", "ACBYDF"))       # 4
-print(damerau_levenshtein_distance_1("programma", "pogarmmma")) # 3
-
 def damerau_levenshtein_distance(s, t, delete_cost=1, insert_cost=1, replace_cost=1, transpose_cost=1):
     m, n = len(s), len(t)
     
@@ -68,10 +65,6 @@ def damerau_levenshtein_distance(s, t, delete_cost=1, insert_cost=1, replace_cos
         
     return d[m][n]
 
-
-print(damerau_levenshtein_distance("XABCDE", "ACBYDF"))       # 4
-print(damerau_levenshtein_distance("programma", "pogarmmma")) # 3
-
 def damerau_levenshtein_distance_memopt(s: str, t: str) -> int:
   m, n = len(s), len(t)
   if m == 0:
@@ -104,5 +97,6 @@ def damerau_levenshtein_distance_memopt(s: str, t: str) -> int:
 
   return prev_row[n]
 
-print(damerau_levenshtein_distance_memopt("XABCDE", "ACBYDF"))       # 4
-print(damerau_levenshtein_distance_memopt("programma", "pogarmmma")) # 3
+def damerau_levenshtein_similarity(s: str, t: str) -> float:
+  distance = damerau_levenshtein_distance_memopt(s, t)
+  return 1 - distance / max(len(s), len(t))

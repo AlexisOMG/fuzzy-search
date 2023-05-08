@@ -32,7 +32,7 @@ def jaro_distance(s, t):
   return (matches / s_len + matches / t_len + (matches - transpositions // 2) / matches) / 3
 
 
-def jaro_winkler_similarity(s, t, p=0.1):
+def jaro_winkler_similarity(s: str, t: str, p=0.1) -> float:
   jaro_dist = jaro_distance(s, t)
 
   if jaro_dist > 0.0:
@@ -45,11 +45,3 @@ def jaro_winkler_similarity(s, t, p=0.1):
     jaro_dist += (p * prefix * (1 - jaro_dist))
 
   return jaro_dist
-
-
-# Example usage:
-s = "Алексей"
-t = "Алкесей"
-
-distance = jaro_winkler_similarity(s, t)
-print(f"Jaro-Winkler distance: {distance}")

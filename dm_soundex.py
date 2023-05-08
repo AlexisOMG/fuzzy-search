@@ -257,22 +257,7 @@ def daitch_mokotoff_encode(word: str, max_length: int = 6, zero_pad: bool = True
     if zero_pad:
         dms_codes = [code.ljust(max_length, '0') for code in dms_codes]
 
-    return ','.join(sorted(set(dms_codes)))
-
-
-from transliterate import translit
-
-name1 = 'кроиакаещповунмолак'
-name2 = 'кроиагаещбофумналак'
-
-name1 = translit(name1, 'ru', reversed=True)
-name2 = translit(name2, 'ru', reversed=True)
-
-code1 = daitch_mokotoff_encode(name1, max_length=10)
-code2 = daitch_mokotoff_encode(name2, max_length=10)
-
-print(name1, '->', code1)
-print(name2, '->', code2)
+    return dms_codes[0]
 
 def dms_table():
     return dms_mappings['combinations']
@@ -334,11 +319,4 @@ def encode(word: str, max_length: int = 6, zero_pad: bool = True) -> str:
         ]
     else:
         dms = [_[:max_length] for _ in dms]
-    return ','.join(sorted(set(dms)))
-
-code1 = encode(name1, max_length=10)
-code2 = encode(name2, max_length=10)
-
-print(name1, '->', code1)
-print(name2, '->', code2)
-
+    return dms[0]

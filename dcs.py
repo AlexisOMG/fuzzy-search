@@ -1,58 +1,7 @@
-from typing import Callable, List, Set, Tuple, Dict, Optional
+from typing import Callable, List, Set, Tuple, Dict, Optional, Hashable, Any
 from collections import defaultdict
-from distances.jaro import jaro_winkler_similarity
-from distances.levenshtein import levenshtein_distance_memopt
-# from typing import Dict, List, Set, Tuple
-
-# def calculate_transitive_closure(duplicate_pairs: List[Tuple[str, str]]) -> List[Set[str]]:
-#     class UnionFind:
-#         def __init__(self):
-#             self.parent: Dict[str, str] = {}
-#             self.rank: Dict[str, int] = {}
-
-#         def find(self, item: str) -> str:
-#             if item not in self.parent:
-#                 self.parent[item] = item
-#                 self.rank[item] = 0
-#             elif self.parent[item] != item:
-#                 self.parent[item] = self.find(self.parent[item])
-#             return self.parent[item]
-
-#         def union(self, item1: str, item2: str) -> None:
-#             root1 = self.find(item1)
-#             root2 = self.find(item2)
-
-#             if root1 == root2:
-#                 return
-
-#             if self.rank[root1] > self.rank[root2]:
-#                 self.parent[root2] = root1
-#             else:
-#                 self.parent[root1] = root2
-#                 if self.rank[root1] == self.rank[root2]:
-#                     self.rank[root2] += 1
-
-#     uf = UnionFind()
-
-#     for item1, item2 in duplicate_pairs:
-#         uf.union(item1, item2)
-
-#     groups: Dict[str, Set[str]] = {}
-
-#     for item1, item2 in duplicate_pairs:
-#         root1 = uf.find(item1)
-#         root2 = uf.find(item2)
-
-#         if root1 != root2:
-#             if root1 not in groups:
-#                 groups[root1] = {item1}
-#             groups[root1].add(item2)
-
-#             if root2 not in groups:
-#                 groups[root2] = {item2}
-#             groups[root2].add(item1)
-
-#     return list(groups.values())
+from copy import deepcopy
+from uuid import uuid4
 
 def calculate_transitive_closure(duplicate_pairs: List[Tuple[str, str]]) -> Set[Tuple[str, str]]:
   def dfs(node: str, graph: Dict[str, List[str]], visited: Set[str]) -> Set[str]:
@@ -125,33 +74,6 @@ def calculate_transitive_closure(duplicate_pairs: List[Tuple[str, str]]) -> Set[
 
 #     return transitive_closure
 
-# def calculate_transitive_closure(duplicate_pairs: List[Tuple[str, str]]) -> List[Set[str]]:
-#     def dfs(node: str, graph: Dict[str, List[str]], visited: Set[str]) -> Set[str]:
-#         visited.add(node)
-#         connected_nodes = {node}
-
-#         for neighbor in graph[node]:
-#             if neighbor not in visited:
-#                 connected_nodes |= dfs(neighbor, graph, visited)
-
-#         return connected_nodes
-
-#     graph = defaultdict(list)
-
-#     for item1, item2 in duplicate_pairs:
-#         graph[item1].append(item2)
-#         graph[item2].append(item1)
-
-#     visited = set()
-#     transitive_closure: List[Set[str]] = []
-
-#     for node in graph:
-#         if node not in visited:
-#             connected_nodes = dfs(node, graph, visited)
-#             transitive_closure.append(connected_nodes)
-
-#     return transitive_closure
-
 def calculate_transitive_closure_warshall(duplicate_pairs: List[Tuple[str, str]]) -> List[Set[str]]:
   vertices = set()
   for pair in duplicate_pairs:
@@ -187,89 +109,58 @@ def calculate_transitive_closure_warshall(duplicate_pairs: List[Tuple[str, str]]
 
   return groups
 
-
-def dcs_plus_plus(records: List[str], key: Callable[[str], str], w: int = 3, phi: Optional[float] = None) -> Set[Tuple[str, str]]:
-  def is_duplicate(record1: str, record2: str) -> bool:
-    # Реализуйте функцию для определения дубликатов
-    return jaro_winkler_similarity(record1, record2) > 0.9
-
+def dcs_plus_plus(data: List[Dict[Hashable, Any]], key: Callable[[Dict[Hashable, Any]], str], is_duplicate: Callable[[Dict[Hashable, Any], Dict[Hashable, Any]], bool],w: int = 3, phi: Optional[float] = None) -> List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]]:
+  records = deepcopy(data)
   records.sort(key=key)
-  win = records[:w]
   skip_records: Set[str] = set()
-  duplicate_pairs: List[Tuple[str, str]] = []
-  j = 1
+  duplicate_pairs: List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]] = []
+  j = 0
   n = len(records)
   k = 0  # Инициализируем переменную k
+
+  for i in range(n):
+    records[i]['__unique_dcs_id__'] = str(uuid4())
+
+  print([record['__unique_dcs_id__'] for record in records[:10]])
+
+  win = records[:w]
+
+  if win[0]['__unique_dcs_id__'] == win[1]['__unique_dcs_id__']:
+    print('dhedhefgrh', k)
 
   if phi is None:
     phi = 1/(w-1)
 
-  while j < n:
-    if win[0] not in skip_records:
+  i = 0
+
+  while i < len(records)-1:
+    if win[0]['__unique_dcs_id__'] not in skip_records:
       num_duplicates = 0
       num_comparisons = 0
-      k = 1
-
-      while k < len(win):
-        if is_duplicate(win[0], win[k]):
-          duplicate_pairs.append((win[0], win[k]))
-          skip_records.add(win[k])
+      j = 1
+      while j < len(win):
+        if is_duplicate(win[0], win[j]):
+          duplicate_pairs.append((win[0], win[j]))
+          skip_records.add(win[j]['__unique_dcs_id__'])
           num_duplicates += 1
 
-          while len(win) < k + w - 1 and j + len(win) < n:
-            win.append(records[j + len(win)])
+          while len(win) < j + w and i + len(win) < len(records):
+            win.append(records[i+len(win)])
 
         num_comparisons += 1
-
-        if k == len(win) - 1 and j + k < n and (num_duplicates / num_comparisons) >= phi:
-          win.append(records[j + k])
-
-        k += 1
+        if j == len(win) - 1 and i+j+1 < len(records) and (num_duplicates / num_comparisons) >= phi:
+          win.append(records[i+j+1])
+        
+        j += 1
 
     win.pop(0)
 
-    if len(win) < w and j + k < n:
-      win.append(records[j + k])
+    if len(win) < w and i + len(win) < len(records)-1:
+      win.append(records[i+len(win)+1])
     else:
       while len(win) > w:
         win.pop()
+    
+    i += 1
 
-    j += 1
-
-  transitive_closure: Set[Tuple[str, str]] = calculate_transitive_closure_warshall(duplicate_pairs)
-  return transitive_closure
-
-test_records = [
-  '0,Kevis,Scott,USA,38',
-  '1,John,Smith,USA,25',
-  '2,Robert,Williams,USA,34',
-  '3,Michael,Jones,USA,56',
-  '4,William,Brown,USA,19',
-  '5,David,Davis,USA,29',
-  '6,Richard,Miller,USA,45',
-  '7,Charles,Wilson,USA,23',
-  '8,Joseph,Moore,USA,37',
-  '9,Thomas,Taylor,USA,51',
-  '10,Christopher,Anderson,USA,47',
-  '11,Daniel,Thomas,USA,21',
-  '12,Paul,Jackson,USA,32',
-  '13,Mark,White,USA,41',
-  '14,Donald,Harris,USA,27',
-  '15,George,Martin,USA,31',
-  '16,Kenneth,Thompson,USA,35',
-  '17,Steven,Robinson,USA,49',
-  '18,Edward,Clark,USA,55',
-  '19,Brian,Rodriguez,USA,39',
-  '20,Ronald,Lewis,USA,43',
-  '21,Brian,Rodriguez,USA,39',
-  '22,Anthony,Walker,USA,33',
-  '23,Kevin,Scott,USA,38',
-  '24,Jason,Green,USA,22',
-  '25,Kevis,Scot,USA,38',
-]
-
-def get_key(record: str) -> str:
-  return (record.split(','))[1]
-
-print(dcs_plus_plus(test_records, get_key, w=6, phi=0.5))
-
+  return duplicate_pairs
