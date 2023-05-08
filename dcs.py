@@ -116,17 +116,11 @@ def dcs_plus_plus(data: List[Dict[Hashable, Any]], key: Callable[[Dict[Hashable,
   duplicate_pairs: List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]] = []
   j = 0
   n = len(records)
-  k = 0  # Инициализируем переменную k
 
   for i in range(n):
     records[i]['__unique_dcs_id__'] = str(uuid4())
 
-  print([record['__unique_dcs_id__'] for record in records[:10]])
-
   win = records[:w]
-
-  if win[0]['__unique_dcs_id__'] == win[1]['__unique_dcs_id__']:
-    print('dhedhefgrh', k)
 
   if phi is None:
     phi = 1/(w-1)
