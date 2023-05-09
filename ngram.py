@@ -17,7 +17,7 @@ class NGramm:
     self.data = deepcopy(data)
     self.to_str = to_str
     self.n = n
-    self.n_gram_sets = [set(n_grams(to_str(d), n)) for d in data]
+    self.n_gram_sets = [set(n_grams(to_str(d), n)) for d in self.data]
     self.inverted_index: Dict[str, List[int]] = {}
     for idx, n_gram_set in enumerate(self.n_gram_sets):
       for n_gram in n_gram_set:
