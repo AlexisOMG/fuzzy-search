@@ -38,10 +38,11 @@ class NGramm:
 
     return matches
   
-  def find_duplicates(self, threshold: float = 0.85) -> List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]]:
+  def find_duplicates(self, threshold: float = 0.85, with_cnt: bool = False) -> List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]]:
     found_records = [False for _ in range(len(self.data))]
     inverted_idx: Dict[str, int] = {}
     res: List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]] = []
+    cnt = 0
 
     for i in range(len(self.data)):
       inverted_idx[self.data[i][unique_ngram_key_name]] = i
@@ -51,12 +52,17 @@ class NGramm:
         continue
       
       found_records[inverted_idx[d[unique_ngram_key_name]]] = True
+
       qs = self.query(d, threshold)
+      cnt += 1
 
       for q in qs:
         if q[unique_ngram_key_name] == d[unique_ngram_key_name]:
           continue
         res.append((d, q))
         found_records[inverted_idx[q[unique_ngram_key_name]]] = True
+
+    if with_cnt:
+      return res, cnt
 
     return res

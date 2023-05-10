@@ -109,13 +109,21 @@ def calculate_transitive_closure_warshall(duplicate_pairs: List[Tuple[str, str]]
 
   return groups
 
-def dcs_plus_plus(data: List[Dict[Hashable, Any]], key: Callable[[Dict[Hashable, Any]], str], is_duplicate: Callable[[Dict[Hashable, Any], Dict[Hashable, Any]], bool],w: int = 3, phi: Optional[float] = None) -> List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]]:
+def dcs_plus_plus(
+  data: List[Dict[Hashable, Any]], 
+  key: Callable[[Dict[Hashable, Any]], str], 
+  is_duplicate: Callable[[Dict[Hashable, Any], Dict[Hashable, Any]], bool],
+  w: int = 3, 
+  phi: Optional[float] = None,
+  with_cnt: bool = False,
+) -> List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]]:
   records = deepcopy(data)
   records.sort(key=key)
   skip_records: Set[str] = set()
   duplicate_pairs: List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]] = []
   j = 0
   n = len(records)
+  cnt = 0
 
   for i in range(n):
     records[i]['__unique_dcs_id__'] = str(uuid4())
@@ -134,6 +142,7 @@ def dcs_plus_plus(data: List[Dict[Hashable, Any]], key: Callable[[Dict[Hashable,
       j = 1
       while j < len(win):
         if is_duplicate(win[0], win[j]):
+          cnt += 1
           duplicate_pairs.append((win[0], win[j]))
           skip_records.add(win[j]['__unique_dcs_id__'])
           num_duplicates += 1
@@ -156,5 +165,8 @@ def dcs_plus_plus(data: List[Dict[Hashable, Any]], key: Callable[[Dict[Hashable,
         win.pop()
     
     i += 1
+
+  if with_cnt:
+    return duplicate_pairs, cnt
 
   return duplicate_pairs
