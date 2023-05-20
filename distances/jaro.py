@@ -1,5 +1,12 @@
-def jaro_distance(s, t):
+from distances.similarity_metric import SimilarityMetric
+
+def jaro_distance(s: str, t: str) -> float:
   s_len, t_len = len(s), len(t)
+  
+  if s_len > t_len:
+    s, t = t, s
+    s_len, t_len = t_len, s_len
+
   match_distance = max(s_len, t_len) // 2 - 1
 
   s_matches, t_matches = [False] * s_len, [False] * t_len
@@ -45,3 +52,10 @@ def jaro_winkler_similarity(s: str, t: str, p=0.1) -> float:
     jaro_dist += (p * prefix * (1 - jaro_dist))
 
   return jaro_dist
+
+class JaroWinklerMetric(SimilarityMetric):
+  def __init__(self, p=0.1):
+    self.p = p
+
+  def similarity(self, s: str, t: str) -> float:
+    return jaro_winkler_similarity(s, t, self.p)

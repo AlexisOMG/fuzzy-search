@@ -3,6 +3,9 @@ from collections import defaultdict
 from copy import deepcopy
 from uuid import uuid4
 
+from duplicates_eliminator import DuplicatesEliminator
+from distances.similarity_metric import SimilarityMetric
+
 def calculate_transitive_closure(duplicate_pairs: List[Tuple[str, str]]) -> Set[Tuple[str, str]]:
   def dfs(node: str, graph: Dict[str, List[str]], visited: Set[str]) -> Set[str]:
     visited.add(node)
@@ -109,64 +112,70 @@ def calculate_transitive_closure_warshall(duplicate_pairs: List[Tuple[str, str]]
 
   return groups
 
-def dcs_plus_plus(
-  data: List[Dict[Hashable, Any]], 
-  key: Callable[[Dict[Hashable, Any]], str], 
-  is_duplicate: Callable[[Dict[Hashable, Any], Dict[Hashable, Any]], bool],
-  w: int = 3, 
-  phi: Optional[float] = None,
-  with_cnt: bool = False,
-) -> List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]]:
-  records = deepcopy(data)
-  records.sort(key=key)
-  skip_records: Set[str] = set()
-  duplicate_pairs: List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]] = []
-  j = 0
-  n = len(records)
-  cnt = 0
+class DCSEliminator(DuplicatesEliminator):
+  def __init__(
+    self, 
+    data: List[Dict[Hashable, Any]], 
+    key: Callable[[Dict[Hashable, Any]], str],
+    similarity: Callable[[Dict[Hashable, Any], Dict[Hashable, Any]], float],
+    w: int = 3, 
+    phi: Optional[float] = None, 
+  ) -> None:
+    super().__init__(data)
+    self.key = key
+    self.similarity = similarity
+    self.w = w
 
-  for i in range(n):
-    records[i]['__unique_dcs_id__'] = str(uuid4())
-
-  win = records[:w]
-
-  if phi is None:
-    phi = 1/(w-1)
-
-  i = 0
-
-  while i < len(records)-1:
-    if win[0]['__unique_dcs_id__'] not in skip_records:
-      num_duplicates = 0
-      num_comparisons = 0
-      j = 1
-      while j < len(win):
-        if is_duplicate(win[0], win[j]):
-          cnt += 1
-          duplicate_pairs.append((win[0], win[j]))
-          skip_records.add(win[j]['__unique_dcs_id__'])
-          num_duplicates += 1
-
-          while len(win) < j + w and i + len(win) < len(records):
-            win.append(records[i+len(win)])
-
-        num_comparisons += 1
-        if j == len(win) - 1 and i+j+1 < len(records) and (num_duplicates / num_comparisons) >= phi:
-          win.append(records[i+j+1])
-        
-        j += 1
-
-    win.pop(0)
-
-    if len(win) < w and i + len(win) < len(records)-1:
-      win.append(records[i+len(win)+1])
+    if phi is None:
+      self.phi = 1/(self.w-1)
     else:
-      while len(win) > w:
-        win.pop()
-    
-    i += 1
+      self.phi = phi
 
-  if with_cnt:
-    return duplicate_pairs, cnt
+    for i in range(len(self.data)):
+      self.data[i]['__unique_dcs_id__'] = str(uuid4())
 
-  return duplicate_pairs
+  def find_duplicates(self, threshold: float = 0.85) -> List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]]:
+    self.data.sort(key=self.key)
+    skip_records: Set[str] = set()
+    duplicate_pairs: List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]] = []
+    j = 0
+    cnt = 0
+
+    win = self.data[:self.w]
+
+    i = 0
+
+    while i < len(self.data)-1:
+      if win[0]['__unique_dcs_id__'] not in skip_records:
+        num_duplicates = 0
+        num_comparisons = 0
+        j = 1
+        while j < len(win):
+          if self.similarity(win[0], win[j]) > threshold:
+            cnt += 1
+            duplicate_pairs.append((win[0], win[j]))
+            skip_records.add(win[j]['__unique_dcs_id__'])
+            num_duplicates += 1
+
+            while len(win) < j + self.w and i + len(win) < len(self.data):
+              win.append(self.data[i+len(win)])
+
+          num_comparisons += 1
+          if j == len(win) - 1 and i+j+1 < len(self.data) and (num_duplicates / num_comparisons) >= self.phi:
+            win.append(self.data[i+j+1])
+          
+          j += 1
+
+      win.pop(0)
+
+      if len(win) < self.w and i + len(win) < len(self.data)-1:
+        win.append(self.data[i+len(win)+1])
+      else:
+        while len(win) > self.w:
+          win.pop()
+      
+      i += 1
+
+    self.cnt = cnt
+
+    return duplicate_pairs

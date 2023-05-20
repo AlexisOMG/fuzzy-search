@@ -3,6 +3,7 @@ from typing import List, Tuple, Dict, Set, Hashable, Any, Callable
 from distances.jaccard import jaccard_similarity
 from copy import deepcopy
 from uuid import uuid4
+from duplicates_eliminator import DuplicatesEliminator
 
 unique_winnowing_key_name = '__unique_winnowing_id__'
 
@@ -48,19 +49,28 @@ def dice_coefficient(set1: set, set2: set):
   intersection = set1.intersection(set2)
   return 2 * len(intersection) / (len(set1) + len(set2))
 
-class Winnowing:
-  def __init__(self, data: List[Dict[Hashable, Any]], to_str: Callable[[Dict[Hashable, Any]], str], k: int = 3, w: int = 3) -> None:
-    self.data = deepcopy(data)
+class Winnowing(DuplicatesEliminator):
+  def __init__(self, 
+    data: List[Dict[Hashable, Any]], 
+    to_str: Callable[[Dict[Hashable, Any]], str], 
+    k: int = 3, 
+    w: int = 3,
+  ) -> None:
+    super().__init__(data)
+
     self.to_str = to_str
     self.k = k
     self.w = w
+
     self.fingerprints = [fingerprints(d, self.to_str, self.k, self.w) for d in self.data]
+
     self.inverted_index: Dict[int, List[int]] = {}
     for idx, fingerprint_set in enumerate(self.fingerprints):
       for fingerprint in fingerprint_set:
         if fingerprint not in self.inverted_index:
           self.inverted_index[fingerprint] = []
         self.inverted_index[fingerprint].append(idx)
+    
     for i in range(len(self.data)):
       self.data[i][unique_winnowing_key_name] = str(uuid4())
 
@@ -76,7 +86,7 @@ class Winnowing:
 
     return matches
   
-  def find_duplicates(self, threshold: float = 0.85, with_cnt: bool = False) -> List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]]:
+  def find_duplicates(self, threshold: float = 0.85) -> List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]]:
     found_records = [False for _ in range(len(self.data))]
     inverted_idx: Dict[str, int] = {}
     res: List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]] = []
@@ -99,8 +109,7 @@ class Winnowing:
         res.append((d, q))
         found_records[inverted_idx[q[unique_winnowing_key_name]]] = True
 
-    if with_cnt:
-      return res, cnt
+    self.cnt = cnt
 
     return res
 

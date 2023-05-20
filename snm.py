@@ -1,5 +1,7 @@
 from typing import Any, Callable, Dict, List, Tuple, Hashable
 from copy import deepcopy
+from duplicates_eliminator import DuplicatesEliminator
+from uuid import uuid4
 
 def generate_key(record: Dict[str, Any], key_attributes: List[str], encoding_fn: Callable) -> str:
   key = ""
@@ -13,48 +15,47 @@ def similarity(s: str, t: str, distance_fn: Callable) -> float:
   max_length = max(len(s), len(t))
   return 1 - distance / max_length
 
-def sorted_neighborhood(
-  records: List[Dict[Hashable, Any]],
-  key: Callable[[Dict[Hashable, Any]], str],
-  similarity: Callable[[Dict[Hashable, Any], Dict[Hashable, Any]], float],
-  window_size: int = 3,
-  similarity_threshold: float = 0.85,
-  with_cnt: bool = False,
-) -> List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]]:
-  data = deepcopy(records)
-  cnt = 0
+class SNM(DuplicatesEliminator):
+  def __init__(self, 
+    data: List[Dict[Hashable, Any]],
+    key: Callable[[Dict[Hashable, Any]], str],
+    similarity: Callable[[Dict[Hashable, Any], Dict[Hashable, Any]], float],
+    w: int = 3,
+  ) -> None:
+    super().__init__(data)
+    self.key = key
+    self.similarity = similarity
+    self.w = w
 
-  data.sort(key=key)
-  
-  # Поиск дубликатов
-  duplicates = []
-  for i in range(len(data) - window_size + 1):
-    window_records = data[i : i + window_size]
-    for j in range(len(window_records)):
-      for k in range(j + 1, len(window_records)):
-        sim = similarity(window_records[j], window_records[k])
+  def find_duplicates(self, threshold: float = 0.85) -> List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]]:
+    cnt = 0
+    duplicate_pairs: List[Tuple[Dict[Hashable, Any], Dict[Hashable, Any]]] = []
+
+    self.data.sort(key=self.key)
+    
+    win = self.data[:self.w]
+
+    i = 0
+
+    while i < len(self.data)-1:
+      j = 1
+      while j < len(win):
         cnt += 1
-        if sim >= similarity_threshold:
-          duplicates.append((window_records[j], window_records[k]))
+        if self.similarity(win[0], win[j]) > threshold:
+          duplicate_pairs.append((win[0], win[j]))
+        j += 1
 
-  if with_cnt:
-    return duplicates, cnt
-  
-  return duplicates
+      win.pop(0)
 
-# data = [
-#   {"id": 1, "name": "Alice", "zip": "12345"},
-#   {"id": 2, "name": "Alisa", "zip": "12346"},
-#   {"id": 3, "name": "Alec", "zip": "12345"},
-#   {"id": 4, "name": "Bobby", "zip": "54322"},
-#   {"id": 5, "name": "Alyce", "zip": "12347"},
-# ]
+      if len(win) < self.w and i + len(win) < len(self.data)-1:
+        win.append(self.data[i+len(win)+1])
+      else:
+        while len(win) > self.w:
+          win.pop()
+      
+      i += 1
 
-# key_attributes = ["name", "zip"]
-# window_size = 3
-# similarity_threshold = 0.9
+    self.cnt = cnt
+    
+    return duplicate_pairs
 
-# duplicates = sorted_neighborhood(data, key_attributes, window_size, similarity_threshold)
-# print("Найденные дубликаты:")
-# for dup in duplicates:
-#   print(dup[0], dup[1])

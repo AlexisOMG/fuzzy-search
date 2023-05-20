@@ -1,3 +1,5 @@
+from distances.similarity_metric import SimilarityMetric
+
 def levenshtein_distance(s, t, k):
   if abs(len(s) - len(t)) > k:
     return float('inf')
@@ -20,6 +22,10 @@ def levenshtein_distance(s, t, k):
 
 def levenshtein_distance_memopt(s: str, t: str) -> int:
   m, n = len(s), len(t)
+
+  if n > m:
+    s, t = t, s
+    m, n = n, m
   
   v0 = list(range(n + 1))
   v1 = [0] * (n + 1)
@@ -44,4 +50,11 @@ def levenshtein_distance_memopt(s: str, t: str) -> int:
 def levenstein_similarity(s: str, t: str) -> float:
   distance = levenshtein_distance_memopt(s, t)
   return 1 - distance / max(len(s), len(t))
+
+class LevenshteinMetric(SimilarityMetric):
+  def distance(self, s: str, t: str) -> int:
+    return levenshtein_distance_memopt(s, t)
+  
+  def similarity(self, s: str, t: str) -> float:
+    return levenstein_similarity(s, t)
 

@@ -1,3 +1,5 @@
+from distances.similarity_metric import SimilarityMetric
+
 def damerau_levenshtein_distance_1(A, B):
   n = len(A)
   m = len(B)
@@ -100,3 +102,12 @@ def damerau_levenshtein_distance_memopt(s: str, t: str) -> int:
 def damerau_levenshtein_similarity(s: str, t: str) -> float:
   distance = damerau_levenshtein_distance_memopt(s, t)
   return 1 - distance / max(len(s), len(t))
+
+class DamerauLevenshteinMetric(SimilarityMetric):
+
+  def distance(self, s: str, t: str) -> float:
+    return damerau_levenshtein_distance_memopt(s, t)
+  
+  def similarity(self, s: str, t: str) -> float:
+    return damerau_levenshtein_similarity(s, t)
+
