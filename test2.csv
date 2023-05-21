@@ -1,0 +1,51 @@
+rec_id,given_name,surname,street_number,address_1,address_2,suburb,state,date_of_birth,phone_number
+rec-4-dup-1,seth,quiljliam,16,,,drpnan,nsw,19680307,08 96913672
+rec-4-dup-0,seahl,quiltiam,1,,,dromana,nsw,19680307,02 94847001
+rec-9-org,stephanie,dixon,238,australie close,south macroom,brooklyn,qld,19780908,02 88960169
+rec-14-org,lily,white,18,santalum street,villa 2,parkinson,qld,19170130,03 14138131
+rec-19-dup-0,,,36,,,park orchards,nsw,19520604,07 81135612
+rec-6-org,,brock,24,mackellar crescent,,lakemba,qld,19130710,03 50099022
+rec-5-dup-0,yasimn,lampeey,6,nelson olace,,ballina,qld,19691120,04 72137562
+rec-4-dup-2,seth,quiliam,15,,,dromana,nsw,19680307,02 94847001
+rec-0-dup-0,zachary,youbgs,8235,newton yteet,,highett,nsw,19936023,08 27195235
+rec-5-dup-2,yasmin,lamprey,6,nelson place,kurramul,lemno s,qld,19691120,08 58092341
+rec-5-dup-1,lamprey,yasmin,6,place nclson,,lemnos,qln,19691120,08 58128341
+rec-16-dup-0,jake,ferris,1,howittlahreet,,dululu,qld,19870304,03 61167694
+rec-9-dup-2,stephanie,doxon,238,,,brookyzn,qld,19780908,02 88960169
+rec-18-org,troy,weaver,670,getting crescent,,pennant hills,vic,19920921,07 42257951
+rec-19-dup-2,andke,,36,,,park orchards,nw,19250404,07 81381612
+rec-12-org,josephine,wardle,169,buriga street,,baxter,sa,19210715,03 84137889
+rec-16-dup-1,jsw,ferris,3,howitt sreet,,dululu,qld,19870304,03 61167694
+rec-13-dup-1,james,beatton,365,fred lane crescent,st johnof hgod hospital,rothwell,,19740621,02 07282719
+rec-13-org,james,beatton,38,fred lane crescent,,rothwell,,19740621,02 07282719
+rec-10-dup-2,jack,whote,74,neales tstreet,burrawang,mannum,wa,19060618,07 34948859
+rec-8-org,mikayla,agius,31,hedley street,,clarence park,sa,19200714,07 38299706
+rec-3-org,ruby,bishop,19,sturt avenue,,wallsend,qld,19221221,02 35820101
+rec-7-dup-1,alzln,keelty,49,barangarovkstreet,the blackhut,kaleen,,19200219,02 15136576
+rec-5-org,yasmin,lamprey,6,nelson place,kurramul,lemnos,qld,19691120,08 58128341
+rec-17-org,tristan,neville,6,laman place,,mount walker south,tas,19030506,02 89824516
+rec-19-dup-1,andrta,,5,,,parkorchards,nsw,19250404,07 81311612
+rec-11-org,amelia,clarke,,sexton street,,strathalbyn,wa,19820110,04 70572150
+rec-13-dup-2,james,beatjpwon,36,fred lane crescent,,rothwell,,19740621,02 07282719
+rec-7-org,alana,keelty,49,barangaroo street,the blackhut,kaleen,,19200219,02 15136576
+rec-10-org,jack,white,74,neales street,burrawang,mannum,wa,19060618,07 14852087
+rec-12-dup-0,josephine,warucle,16,buriga street,,baxter,sa,,03 84317889
+rec-13-dup-3,,beatton,388,fred lane crescent,,rothwell,,19740621,02 07282719
+rec-10-dup-0,jazz,white,74,nealesnseceet,burrawang,mannum,wa,19060618,07 14852087
+rec-17-dup-1,trystan,nevqk le,6,laman place,,mount walker south,tas,19030506,02 89824516
+rec-10-dup-1,jack,white,9,neales dtreet,burrawang,mannum,wa,19060618,07 14842087
+rec-1-org,jayden,dixon,36,bertel crescent,,bunbury,qld,19450213,03 84191427
+rec-9-dup-1,stephanie,dixon,238,australk rmlose,south macroom,brooklyn,qld,19780908,02 88960169
+rec-16-org,jake,ferris,1,howitt street,,dululu,qld,19870304,03 61167694
+rec-0-dup-1,zachary,youngs,8235,newtobnsbreet,,higdept,nsw,19930613,08 27195235
+rec-12-dup-1,josephine,wareleb,169,burigasteet,,baxter,ax,19210715,03 84137889
+rec-15-org,chelsie,vick,26,mighell place,,willagee,nsw,19270512,04 63999883
+rec-13-dup-0,jmas,beatton,38,fred lane crescent,,rothwell,,19740621,
+rec-9-dup-0,steafnie,dixon,238,australie close,,nickol,qld,19780908,03 41531219
+rec-19-org,andrea,,36,,,park orchards,nsw,19250404,07 81311612
+rec-0-org,zachary,youngs,8235,newton street,,highett,nsw,19930613,08 27195235
+rec-2-org,alannah,clarke,14,nangor street,,st albans,nsw,19190709,07 55896851
+rec-4-org,seth,quilliam,16,,,dromana,nsw,19680307,02 94847001
+rec-7-dup-0,alana,keelty,49,,the blackhut,kaleen,,19230317,02 15136576
+rec-0-dup-2,zachaty,youngs,823,newton street,,highett,nsa,19930613,08 27195235
+rec-17-dup-0,trisab,neivbfle,6,laman place,,mount walker south,tasr,19030506,02 89824516
